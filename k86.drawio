@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-25T21:34:40.270Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="dVphjNCTpfASv_cU_EnI" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-25T22:05:30.099Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="h4aojaTUgUgZZ9h1ps4A" version="21.6.9" type="github">
   <diagram name="Page-1" id="099fd60b-425b-db50-ffb0-6b813814b670">
-    <mxGraphModel dx="2908" dy="1760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2390" dy="1477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2162,6 +2162,11 @@
         <mxCell id="gVJ6AY2jmVHqezJU9lCX-720" value="Crankshaft position sensor&lt;br&gt;K24&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-400" y="960" width="180" height="104" as="geometry" />
         </mxCell>
+        <mxCell id="gVJ6AY2jmVHqezJU9lCX-741" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FF2600;strokeWidth=4;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=oval;endFill=1;" edge="1" parent="gVJ6AY2jmVHqezJU9lCX-720" source="gVJ6AY2jmVHqezJU9lCX-721">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="gVJ6AY2jmVHqezJU9lCX-721" value="ECU +5V" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="gVJ6AY2jmVHqezJU9lCX-720">
           <mxGeometry y="26" width="180" height="26" as="geometry" />
         </mxCell>
@@ -2189,6 +2194,11 @@
         </mxCell>
         <mxCell id="gVJ6AY2jmVHqezJU9lCX-726" value="Intake cam position sensor&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-400" y="840" width="180" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="gVJ6AY2jmVHqezJU9lCX-740" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FF2600;strokeWidth=4;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=oval;endFill=1;" edge="1" parent="gVJ6AY2jmVHqezJU9lCX-726" source="gVJ6AY2jmVHqezJU9lCX-734">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="39" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="gVJ6AY2jmVHqezJU9lCX-734" value="ECU +5V" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="gVJ6AY2jmVHqezJU9lCX-726">
           <mxGeometry y="26" width="180" height="26" as="geometry" />
@@ -2226,6 +2236,23 @@
             <Array as="points">
               <mxPoint x="-80" y="985" />
               <mxPoint x="-80" y="905" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gVJ6AY2jmVHqezJU9lCX-739" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FF2600;strokeWidth=4;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=oval;endFill=1;" edge="1" parent="1" source="gVJ6AY2jmVHqezJU9lCX-735">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="759" />
+              <mxPoint x="40" y="775" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gVJ6AY2jmVHqezJU9lCX-742" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#CCCCCC;strokeWidth=4;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="gVJ6AY2jmVHqezJU9lCX-732" target="gVJ6AY2jmVHqezJU9lCX-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-120" y="785" />
+              <mxPoint x="-120" y="1195" />
             </Array>
           </mxGeometry>
         </mxCell>
