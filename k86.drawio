@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T00:52:36.321Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="VE5MpkF6FZhLwTkNEE53" version="21.6.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-31T08:55:48.560Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="1MZpLFV064LyoE2xTprh" version="21.6.9" type="github" pages="2">
   <diagram name="MaxxECU Sport + PDM20" id="099fd60b-425b-db50-ffb0-6b813814b670">
     <mxGraphModel dx="1804" dy="2735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -4104,7 +4104,7 @@
         <mxCell id="KuAF3qLeGnJ3oik3mZkw-532" value="VTEC-" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="KuAF3qLeGnJ3oik3mZkw-529" vertex="1">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="KuAF3qLeGnJ3oik3mZkw-533" value="VTC Solenoid" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="KuAF3qLeGnJ3oik3mZkw-1" vertex="1">
+        <mxCell id="KuAF3qLeGnJ3oik3mZkw-533" value="VTC Oil Control&amp;nbsp;Solenoid" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="KuAF3qLeGnJ3oik3mZkw-1" vertex="1">
           <mxGeometry x="-322.5" y="2040" width="140" height="78" as="geometry" />
         </mxCell>
         <mxCell id="KuAF3qLeGnJ3oik3mZkw-534" value="1 - VTC-" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="KuAF3qLeGnJ3oik3mZkw-533" vertex="1">
