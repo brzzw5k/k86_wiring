@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-03T21:08:33.675Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="0fvNQcRIkkqbFehPOIEi" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-03T21:29:55.176Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="dl30jcdBmSaf_89dcTH7" version="21.6.9" type="github">
   <diagram name="MaxxECU Race + PDM20" id="cyoWFu5XKC9JzGLg5dQv">
     <mxGraphModel dx="1804" dy="3835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -2433,6 +2433,45 @@
               <mxPoint x="440" y="3535" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="E7jtjTPdRTGgBwk5EEAI-21" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#000000;strokeWidth=4;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="KuAF3qLeGnJ3oik3mZkw-1" source="E7jtjTPdRTGgBwk5EEAI-3" target="KuAF3qLeGnJ3oik3mZkw-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E7jtjTPdRTGgBwk5EEAI-3" value="CAN Keypad Buttons" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="KuAF3qLeGnJ3oik3mZkw-1">
+          <mxGeometry x="600" y="2320" width="200" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="E7jtjTPdRTGgBwk5EEAI-14" value="Ignition" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="E7jtjTPdRTGgBwk5EEAI-3">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E7jtjTPdRTGgBwk5EEAI-15" value="Start" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="E7jtjTPdRTGgBwk5EEAI-3">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E7jtjTPdRTGgBwk5EEAI-5" value="Turn L" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="E7jtjTPdRTGgBwk5EEAI-3">
+          <mxGeometry y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E7jtjTPdRTGgBwk5EEAI-7" value="Turn R" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="E7jtjTPdRTGgBwk5EEAI-3">
+          <mxGeometry y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E7jtjTPdRTGgBwk5EEAI-12" value="Parking lights/Low beams" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="E7jtjTPdRTGgBwk5EEAI-3">
+          <mxGeometry y="150" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E7jtjTPdRTGgBwk5EEAI-13" value="Flash high beams; Hold for ON" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="E7jtjTPdRTGgBwk5EEAI-3">
+          <mxGeometry y="180" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E7jtjTPdRTGgBwk5EEAI-20" value="Wipers Low/HIgh" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="E7jtjTPdRTGgBwk5EEAI-3">
+          <mxGeometry y="210" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E7jtjTPdRTGgBwk5EEAI-18" value="Fans 100%" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="E7jtjTPdRTGgBwk5EEAI-3">
+          <mxGeometry y="240" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E7jtjTPdRTGgBwk5EEAI-17" value="Traction Sport/Off" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="E7jtjTPdRTGgBwk5EEAI-3">
+          <mxGeometry y="270" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E7jtjTPdRTGgBwk5EEAI-16" value="&lt;b&gt;DOOR LOCK&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="E7jtjTPdRTGgBwk5EEAI-3">
+          <mxGeometry y="300" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E7jtjTPdRTGgBwk5EEAI-11" value="Hazard lights" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="E7jtjTPdRTGgBwk5EEAI-3">
+          <mxGeometry y="330" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
