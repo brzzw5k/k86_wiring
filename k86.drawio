@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T19:41:45.140Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="M7-87lG6CBtF9TxB81Q2" version="22.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-11-02T20:12:12.046Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="zaa-xLKZixro6w4EZzjb" version="22.0.8" type="github" pages="2">
   <diagram name="MaxxECU Race + PDM20" id="cyoWFu5XKC9JzGLg5dQv">
     <mxGraphModel dx="1715" dy="3835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -1782,28 +1782,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RKD4cbl_TnWUX3K8sFoW-55" value="Diff Oil Temp Sensor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="KuAF3qLeGnJ3oik3mZkw-1" vertex="1">
-          <mxGeometry x="-280" y="592" width="140" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="RKD4cbl_TnWUX3K8sFoW-56" value="Sensor Output" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="RKD4cbl_TnWUX3K8sFoW-55" vertex="1">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="RKD4cbl_TnWUX3K8sFoW-57" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#994C00;strokeWidth=4;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=oval;endFill=1;" parent="RKD4cbl_TnWUX3K8sFoW-55" source="RKD4cbl_TnWUX3K8sFoW-58" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="65" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RKD4cbl_TnWUX3K8sFoW-58" value="GND" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="RKD4cbl_TnWUX3K8sFoW-55" vertex="1">
-          <mxGeometry y="52" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="RKD4cbl_TnWUX3K8sFoW-59" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#000000;strokeWidth=4;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="KuAF3qLeGnJ3oik3mZkw-1" source="RKD4cbl_TnWUX3K8sFoW-56" target="KuAF3qLeGnJ3oik3mZkw-37" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-40" y="631" />
-              <mxPoint x="-40" y="1045" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="RKD4cbl_TnWUX3K8sFoW-70" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#FF2600;strokeWidth=4;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="KuAF3qLeGnJ3oik3mZkw-1" source="KuAF3qLeGnJ3oik3mZkw-151" target="KuAF3qLeGnJ3oik3mZkw-409" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -3259,11 +3237,6 @@
         <mxCell id="hDu7qx-F4uVvAGGq0rHO-347" value="Cooling Fan Motor 1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="hDu7qx-F4uVvAGGq0rHO-1" vertex="1">
           <mxGeometry x="560" y="-40" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="v1HZnube2NJFXbOsCugU-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FF2600;strokeWidth=4;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=oval;endFill=1;" edge="1" parent="hDu7qx-F4uVvAGGq0rHO-347" source="hDu7qx-F4uVvAGGq0rHO-349">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-160" y="45" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="hDu7qx-F4uVvAGGq0rHO-349" value="POWER (25A)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="hDu7qx-F4uVvAGGq0rHO-347" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
@@ -3699,15 +3672,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="v1HZnube2NJFXbOsCugU-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#FF2600;strokeWidth=4;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="hDu7qx-F4uVvAGGq0rHO-1" source="hDu7qx-F4uVvAGGq0rHO-78" target="hDu7qx-F4uVvAGGq0rHO-352">
+        <mxCell id="v1HZnube2NJFXbOsCugU-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#FF2600;strokeWidth=4;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="hDu7qx-F4uVvAGGq0rHO-1" source="hDu7qx-F4uVvAGGq0rHO-78" target="hDu7qx-F4uVvAGGq0rHO-349">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="400" y="-965" />
-              <mxPoint x="400" y="95" />
+              <mxPoint x="400" y="5" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v1HZnube2NJFXbOsCugU-2" value="FANS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="v1HZnube2NJFXbOsCugU-1">
+        <mxCell id="v1HZnube2NJFXbOsCugU-2" value="FAN 1&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="v1HZnube2NJFXbOsCugU-1">
           <mxGeometry x="-0.944" y="-2" relative="1" as="geometry">
             <mxPoint x="5" as="offset" />
           </mxGeometry>
