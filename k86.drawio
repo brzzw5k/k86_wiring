@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T21:00:27.072Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="W6NchexdvH-0JdQLXgb8" version="22.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-11-02T23:54:24.282Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="XseUvSCKPsK5bi7lnTR2" version="22.0.8" type="github" pages="2">
   <diagram name="MaxxECU Race + PDM20" id="cyoWFu5XKC9JzGLg5dQv">
-    <mxGraphModel dx="2476" dy="3979" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1715" dy="3863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="KuAF3qLeGnJ3oik3mZkw-0" />
         <mxCell id="KuAF3qLeGnJ3oik3mZkw-1" parent="KuAF3qLeGnJ3oik3mZkw-0" />
@@ -595,13 +595,13 @@
             <mxPoint x="220" y="45" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KuAF3qLeGnJ3oik3mZkw-314" value="1 - ECU +5V" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KuAF3qLeGnJ3oik3mZkw-312" vertex="1">
-          <mxGeometry y="30" width="200" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="RKD4cbl_TnWUX3K8sFoW-31" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#994C00;strokeWidth=4;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=oval;endFill=1;" parent="KuAF3qLeGnJ3oik3mZkw-312" source="KuAF3qLeGnJ3oik3mZkw-316" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="75" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KuAF3qLeGnJ3oik3mZkw-314" value="1 - ECU +5V" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KuAF3qLeGnJ3oik3mZkw-312" vertex="1">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KuAF3qLeGnJ3oik3mZkw-316" value="2 - GND2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KuAF3qLeGnJ3oik3mZkw-312" vertex="1">
           <mxGeometry y="60" width="200" height="30" as="geometry" />
