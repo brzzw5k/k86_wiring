@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-12T10:06:12.688Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="jM0Q_UN3wAmif4ajQgdk" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-14T09:11:57.346Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="vnJWr0CMr1mqovkrvn63" version="24.2.5" type="github">
   <diagram name="Deprecated" id="cyoWFu5XKC9JzGLg5dQv">
-    <mxGraphModel dx="1427" dy="4015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1828" dy="4015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="KuAF3qLeGnJ3oik3mZkw-0" />
         <mxCell id="KuAF3qLeGnJ3oik3mZkw-1" parent="KuAF3qLeGnJ3oik3mZkw-0" />
@@ -199,7 +199,7 @@
           <mxGeometry y="120" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KuAF3qLeGnJ3oik3mZkw-122" value="Power Steering" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="KuAF3qLeGnJ3oik3mZkw-1" vertex="1">
-          <mxGeometry x="80" y="2720" width="200" height="210" as="geometry" />
+          <mxGeometry x="80" y="2720" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="KuAF3qLeGnJ3oik3mZkw-123" value="A1 - POWER (OEM FUSED 80A)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KuAF3qLeGnJ3oik3mZkw-122" vertex="1">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -226,14 +226,11 @@
         <mxCell id="RKD4cbl_TnWUX3K8sFoW-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#999999;strokeWidth=4;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;startArrow=oval;startFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="KuAF3qLeGnJ3oik3mZkw-122" target="RKD4cbl_TnWUX3K8sFoW-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-20" y="165" as="targetPoint" />
-            <mxPoint x="-20" y="195" as="sourcePoint" />
+            <mxPoint x="-20" y="165" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RKD4cbl_TnWUX3K8sFoW-20" value="B7 - CAN L" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KuAF3qLeGnJ3oik3mZkw-122" vertex="1">
-          <mxGeometry y="150" width="200" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="RKD4cbl_TnWUX3K8sFoW-19" value="B7 - CAN L" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KuAF3qLeGnJ3oik3mZkw-122" vertex="1">
-          <mxGeometry y="180" width="200" height="30" as="geometry" />
+          <mxGeometry y="150" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KuAF3qLeGnJ3oik3mZkw-130" value="MaxxECU PDM20 &amp;nbsp;Logical View" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="KuAF3qLeGnJ3oik3mZkw-1" vertex="1">
           <mxGeometry x="80" y="-1160" width="200" height="1110" as="geometry" />
