@@ -3,11 +3,11 @@
   <Fileinfo>
     <Softwareversion>1.149</Softwareversion>
     <ECUHWVersion>13</ECUHWVersion>
-    <ECUFWVersion>1.149</ECUFWVersion>
+    <ECUFWVersion>1.149.17257</ECUFWVersion>
     <ECUFeatures>0</ECUFeatures>
     <ECUSerial>JZHVXI</ECUSerial>
     <EcuHWType>RACE</EcuHWType>
-    <Edittime>2024-06-23 13:26:24</Edittime>
+    <Edittime>2024-06-25 01:22:01</Edittime>
   </Fileinfo>
   <ECUSettingsItem name="IATSensor Input Voltage">4.66,4.491,4.241,3.897,3.471,2.986,2.483,2.019,1.594,1.249,0.962,0.743,0.573,0.444,0.349,0.273,0.217,0.172</ECUSettingsItem>
   <ECUSettingsItem name="IATSensor Output Temperature">-40,-30,-20,-10,0,10,20,30,40,50,60,70,80,90,100,110,120,130</ECUSettingsItem>
@@ -65,8 +65,8 @@
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableData XSize="8" YSize="1" DynamicMemoryAddress="27">0,0,0,0,0,0,0,0</DynamicTableData>
   </DynamicTable>
-  <ECUSettingsItem name="Fuel extra table 1 func">0</ECUSettingsItem>
-  <ECUSettingsItem name="Fuel extra table 2 func">0</ECUSettingsItem>
+  <ECUSettingsItem name="Fuel extra table 1 func">112</ECUSettingsItem>
+  <ECUSettingsItem name="Fuel extra table 2 func">111</ECUSettingsItem>
   <ECUSettingsItem name="Fuel extra table 3 func">0</ECUSettingsItem>
   <ECUSettingsItem name="Ign extra table 2 func">0</ECUSettingsItem>
   <ECUSettingsItem name="Ign extra table 3 func">0</ECUSettingsItem>
@@ -139,20 +139,25 @@
   <ECUSettingsItem name="Barocorr BaroPT">60,68.2,76.5,84.8,93.1,101.4,108.2,115.1</ECUSettingsItem>
   <ECUSettingsItem name="Barocorr TrimPT">-40.8,-32.7,-24.5,-16.3,-8.2,0,6.7,13.4</ECUSettingsItem>
   <DynamicTable name="VE Table 1 data" AxisPageMemAddr="496" tableSettingsBits="0">
-    <DynamicTableAxis name="X" AxisCellCount="16" AxisDataSource="61" StepMode="False">200,800,1000,1200,1600,2000,2500,3000,3500,4000,4500,5000,5500,6000,6500,7000</DynamicTableAxis>
-    <DynamicTableAxis name="Y" AxisCellCount="11" AxisDataSource="20" StepMode="False">20,40,50.3,60,80,99.9,119.9,139.9,159.9,179.9,199.9</DynamicTableAxis>
+    <DynamicTableAxis name="X" AxisCellCount="17" AxisDataSource="61" StepMode="False">1000,1200,1600,2000,2500,3000,3500,4000,4500,5000,5500,6000,6500,7000,7500,8000,8500</DynamicTableAxis>
+    <DynamicTableAxis name="Y" AxisCellCount="16" AxisDataSource="19" StepMode="False">0,1,2,4,7,9.5,12,18.5,25,35,50,60,70,80,90,100</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="246" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="16" YSize="11" DynamicMemoryAddress="559">28,28,28,28,30,30,30,30,32,34,34,34,34,34,34,34
-40,40,40,42,48,48,48,48,54,56,56,56,56,56,56,56
-46,46,46,48,54,54,56,60,62,64,64,64,64,64,64,64
-60,60,60,60,60,60,60,60,66,68,68,68,68,68,68,68
-64,70,70,70,70,70,73,76,76,78,78,78,78,78,78,78
-68,76,76,76,76,80,80,80,80,82,82,82,82,82,82,82
-72,76.7,78.3,79.8,83,86.1,90,90,90,92,92,92,92,92,92,92
-76,82.3,84.3,86.4,90.6,94.8,100,102,102,102,102,102,102,102,102,102
-80,87.3,89.7,92.2,97,101.9,108,110,110,110,110,110,110,110,110,110
-84,90.3,92.3,94.4,98.6,102.8,108,110,112,114,114,114,114,114,114,114
-88,93.2,95,96.7,100.2,103.7,108,114,116,116,116,116,116,116,116,116</DynamicTableData>
+    <DynamicTableData XSize="17" YSize="16" DynamicMemoryAddress="16125">25.5,25,21.6,17.4,13.7,11.2,12.8,15.4,15.4,17.8,17.2,14.8,14.6,11.6,9.6,2.8,0
+31.5,30.1,26.8,20.3,16.8,14,15.8,18.2,19.4,21.6,22.2,18.6,19.4,17.4,14.4,10.6,2.8
+32.8,33.4,29.8,23.8,21.9,22.4,22.8,21.2,21.4,23.4,23.4,22.6,22.4,20.4,17.6,12.8,6.2
+38.1,38.2,36.7,27,26.9,27.4,27.4,27.6,26.8,27.2,28,25.6,25,23.4,20.8,16.2,8.6
+41.8,42,41.3,29.4,31.8,33.3,33.4,34.2,34.1,34.4,34.6,34,34,32,28.6,24,17.4
+44,44,43.6,34.4,35,37.6,40,41.1,40.8,40.6,40.2,38.6,39.6,35.4,31.8,26.8,20.4
+46.2,46.1,46,38.4,39.2,41,43.6,47,48.4,47.9,46.7,46.1,43.3,40.7,37,31.7,26.4
+47.7,48.6,49,47.4,48.6,48.7,51,54.1,56.4,54.5,52.8,49.6,47.9,43.2,41.2,36.4,32
+52.2,52.2,53.1,54.4,60.4,58.4,56,58.5,63.5,58,56.9,54.4,51.4,48.3,44.5,40,34.6
+58,58,61.4,63,67.2,69.4,70.6,72.7,74.3,72.4,70.2,68.4,65.9,61.9,56.9,52.1,47.8
+63.9,64.9,66.4,72,80.6,80.4,76.6,83.2,83.3,79.6,80.4,78,70.7,72,73.1,72.8,71.3
+63.9,64.9,66.4,68.8,80.1,82.2,76,84.7,85.8,83.3,86.6,83.6,79.9,79.1,84,80.8,77.5
+65.9,67,68.5,69.4,82.1,82.3,75.6,84.4,82.9,79.6,85.8,90.2,93.3,90.4,89.7,85.2,81.5
+67,68,69.5,69.9,85.1,83.5,75.2,89.9,88.8,90.2,101,102.4,103,100.5,101.9,96.8,92.7
+68,69,70.6,70,86.3,86,76.2,87.3,86.2,88.8,101.9,107.6,108.7,108.4,105.8,103.9,100.1
+68,69,70.6,73.1,88.3,85.5,78.2,86.3,84.2,85.7,100.8,106.9,109.1,110.3,107.2,105.7,102.2</DynamicTableData>
   </DynamicTable>
   <DynamicTable name="VE Table 2 data" AxisPageMemAddr="916" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
@@ -160,22 +165,23 @@
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableData XSize="1" YSize="1" DynamicMemoryAddress="929">0</DynamicTableData>
   </DynamicTable>
-  <DynamicTable name="Lambda Table 1 data" AxisPageMemAddr="936" tableSettingsBits="0">
-    <DynamicTableAxis name="X" AxisCellCount="15" AxisDataSource="61" StepMode="False">500,1000,1500,2000,2500,3000,3500,4000,4500,5000,5500,6000,6500,7000,7500</DynamicTableAxis>
-    <DynamicTableAxis name="Y" AxisCellCount="12" AxisDataSource="20" StepMode="False">20,40,60,80,99.9,119.9,139.9,159.9,179.9,199.9,219.9,239.9</DynamicTableAxis>
+  <DynamicTable name="Lambda Table 1 data" AxisPageMemAddr="571" tableSettingsBits="0">
+    <DynamicTableAxis name="X" AxisCellCount="16" AxisDataSource="61" StepMode="False">1000,1500,2000,2500,3000,3500,4000,4500,5000,5500,6000,6500,7000,7500,8000,8500</DynamicTableAxis>
+    <DynamicTableAxis name="Y" AxisCellCount="13" AxisDataSource="19" StepMode="False">0,8.3,16.7,25,33.3,41.7,50,58.3,66.7,75,83.3,91.7,100</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="15" YSize="12" DynamicMemoryAddress="999">0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98
-0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98
-0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98
-0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98
-0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96
-0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9
-0.88,0.88,0.88,0.88,0.88,0.88,0.88,0.88,0.88,0.88,0.88,0.88,0.88,0.88,0.88
-0.85,0.85,0.85,0.85,0.85,0.85,0.85,0.85,0.85,0.85,0.85,0.85,0.85,0.85,0.85
-0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84
-0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84
-0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84
-0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84,0.84</DynamicTableData>
+    <DynamicTableData XSize="16" YSize="13" DynamicMemoryAddress="936">0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96
+0.953,0.953,0.953,0.953,0.953,0.953,0.953,0.952,0.952,0.952,0.952,0.951,0.951,0.951,0.95,0.95
+0.947,0.947,0.947,0.947,0.947,0.946,0.945,0.945,0.944,0.944,0.943,0.942,0.942,0.941,0.941,0.94
+0.94,0.94,0.94,0.94,0.94,0.939,0.938,0.937,0.936,0.936,0.934,0.934,0.933,0.932,0.931,0.93
+0.933,0.933,0.933,0.933,0.933,0.932,0.931,0.93,0.928,0.927,0.926,0.925,0.924,0.922,0.921,0.92
+0.927,0.927,0.927,0.927,0.927,0.925,0.924,0.922,0.92,0.919,0.917,0.916,0.915,0.913,0.912,0.91
+0.92,0.92,0.92,0.92,0.92,0.918,0.917,0.915,0.913,0.912,0.91,0.909,0.908,0.906,0.904,0.902
+0.918,0.918,0.918,0.918,0.918,0.916,0.916,0.914,0.912,0.912,0.91,0.909,0.908,0.907,0.905,0.904
+0.916,0.916,0.916,0.916,0.916,0.915,0.914,0.913,0.912,0.911,0.91,0.909,0.909,0.908,0.906,0.905
+0.914,0.914,0.914,0.914,0.914,0.913,0.913,0.912,0.911,0.911,0.91,0.91,0.909,0.908,0.908,0.907
+0.912,0.912,0.912,0.912,0.912,0.912,0.911,0.911,0.911,0.91,0.91,0.91,0.91,0.909,0.909,0.908
+0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9
+0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9</DynamicTableData>
   </DynamicTable>
   <ECUSettingsItem name="Trigger Input Type">0</ECUSettingsItem>
   <ECUSettingsItem name="Home Input Type">0</ECUSettingsItem>
@@ -196,7 +202,7 @@
   <ECUSettingsItem name="Trigger Missing tooth Camsync">0</ECUSettingsItem>
   <ECUSettingsItem name="Trigger Toothcount">60</ECUSettingsItem>
   <ECUSettingsItem name="Trigger Missingtoothcount">2</ECUSettingsItem>
-  <ECUSettingsItem name="Trigger Firsttoothangle">312</ECUSettingsItem>
+  <ECUSettingsItem name="Trigger Firsttoothangle">311</ECUSettingsItem>
   <ECUSettingsItem name="Trigger Audi Special">0</ECUSettingsItem>
   <ECUSettingsItem name="Trigger Trig VoltageMode">0</ECUSettingsItem>
   <ECUSettingsItem name="Trigger Home VoltageMode">0</ECUSettingsItem>
@@ -370,21 +376,21 @@
   <ECUSettingsItem name="Ign Idlelock Angle">10</ECUSettingsItem>
   <ECUSettingsItem name="Ign Idlelock MaxTPS">2</ECUSettingsItem>
   <ECUSettingsItem name="Ign Idlelock MaxRPM">2000</ECUSettingsItem>
-  <DynamicTable name="IgnAdv Table 1 data" AxisPageMemAddr="1492" tableSettingsBits="0">
-    <DynamicTableAxis name="X" AxisCellCount="15" AxisDataSource="61" StepMode="False">800,1000,1200,1600,2000,2500,3000,3500,4000,4500,5000,5500,6000,6500,7000</DynamicTableAxis>
-    <DynamicTableAxis name="Y" AxisCellCount="11" AxisDataSource="20" StepMode="False">20,40,60,80,99.9,119.9,139.9,159.9,179.9,199.9,219.9</DynamicTableAxis>
+  <DynamicTable name="IgnAdv Table 1 data" AxisPageMemAddr="638" tableSettingsBits="0">
+    <DynamicTableAxis name="X" AxisCellCount="17" AxisDataSource="61" StepMode="False">1000,1200,1600,2000,2500,3000,3500,4000,4500,5000,5500,6000,6500,7000,7500,8000,8500</DynamicTableAxis>
+    <DynamicTableAxis name="Y" AxisCellCount="11" AxisDataSource="19" StepMode="False">0,10,20,30,40,50,60,70,80,90,100</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="15" YSize="11" DynamicMemoryAddress="1553">10,10,10,12,20,26,36,36.2,36.5,36.8,37,37.2,37.5,37.8,38
-10,10,10,12,20,24.6,33.6,33.8,34.1,34.4,34.6,34.8,35.1,35.4,35.6
-10,10,10,12,20,23.2,31.2,31.4,31.7,32,32.2,32.4,32.7,33,33.2
-10,10,10,12,19,21.8,28.8,29,29.3,29.6,29.8,30,30.3,30.6,30.8
-10,10,10,12,18,20.4,26.4,26.6,26.9,27.2,27.4,27.6,27.9,28.2,28.4
-10,10,10,12,17,19,24,24.2,24.5,24.8,25,25.2,25.5,25.8,26
-10,10,10,12,16,17.6,21.6,21.8,22.1,22.4,22.6,22.8,23.1,23.4,23.6
-10,10,10,12,15,16.2,19.2,19.5,19.7,20,20.2,20.5,20.7,21,21.2
-10,10,10,12,14,14.8,16.8,17,17.3,17.6,17.8,18,18.3,18.6,18.8
-10,10,10,12,13,13.4,14.4,14.6,14.9,15.2,15.4,15.6,15.9,16.2,16.4
-10,10,10,12,12,12,12,12.2,12.5,12.8,13,13.2,13.5,13.8,14</DynamicTableData>
+    <DynamicTableData XSize="17" YSize="11" DynamicMemoryAddress="1492">11,14,17,23,24.6,26.4,26.9,27.2,27.6,28.5,28.8,28.5,28.7,29,29.3,29.6,29.9
+11,14,16.9,22.2,23.6,25.3,25.5,25.8,26.2,27.1,27.4,27.3,27.5,27.8,28.1,28.4,28.7
+11,14,16.8,21.3,22.9,24.5,24.5,24.7,25.1,26,26.4,26.5,26.6,26.9,27.3,27.7,28.1
+11,14,16.8,20.6,22.1,23.6,23.6,23.8,24.2,25.1,25.4,25.6,25.9,26.3,26.7,27,27.5
+11,14,16.7,19.7,21.3,22.8,22.7,22.9,23.3,24,24.5,24.7,25,25.5,25.9,26.4,26.8
+11,14,16.6,19,20.6,22,21.9,22.1,22.5,23.2,23.7,24,24.3,24.8,25.3,25.9,26.4
+11,13.7,16.5,18.1,19.8,21.2,21.6,21.9,22.3,23,23.2,23.5,23.8,24.4,25,25.8,26.3
+11.5,13.3,16.5,17.3,19,20.4,20.7,21,21.4,22.2,22.8,23.3,23.7,24.6,25.4,25.7,26.2
+13.7,14.7,16.4,17.4,19,19.4,19.7,19.9,20.3,20.9,21.4,22.1,23.1,24.3,25.2,25.5,26.2
+14.6,15.5,16.3,17.5,18,19,19.2,19.4,19.8,20.4,20.8,21.6,23,24.4,25.1,25.4,26.1
+15,15.8,16.2,17,17.7,18.4,18.6,18.9,19.2,19.7,20.2,21.2,22.8,24.4,24.9,25.3,26</DynamicTableData>
   </DynamicTable>
   <ECUSettingsItem name="Multiply Lambda">1</ECUSettingsItem>
   <ECUSettingsItem name="O2Sensor Type">1</ECUSettingsItem>
@@ -666,15 +672,15 @@
   <ECUSettingsItem name="DIN 5 VREnable">0</ECUSettingsItem>
   <ECUSettingsItem name="DIN 4 Pullup">0</ECUSettingsItem>
   <ECUSettingsItem name="DIN 5 Pullup">0</ECUSettingsItem>
-  <ECUSettingsItem name="OutputTest Mode">0</ECUSettingsItem>
+  <ECUSettingsItem name="OutputTest Mode">4</ECUSettingsItem>
   <ECUSettingsItem name="OutputTest TempShutoff Outputs">0</ECUSettingsItem>
   <ECUSettingsItem name="OutputTest Freq">10</ECUSettingsItem>
   <ECUSettingsItem name="OutputTest InjWidth">5</ECUSettingsItem>
   <ECUSettingsItem name="OutputTest IgnWidth">3</ECUSettingsItem>
-  <ECUSettingsItem name="OutputTest Enable InjCH1">0</ECUSettingsItem>
-  <ECUSettingsItem name="OutputTest Enable InjCH2">0</ECUSettingsItem>
-  <ECUSettingsItem name="OutputTest Enable InjCH3">0</ECUSettingsItem>
-  <ECUSettingsItem name="OutputTest Enable InjCH4">0</ECUSettingsItem>
+  <ECUSettingsItem name="OutputTest Enable InjCH1">1</ECUSettingsItem>
+  <ECUSettingsItem name="OutputTest Enable InjCH2">1</ECUSettingsItem>
+  <ECUSettingsItem name="OutputTest Enable InjCH3">1</ECUSettingsItem>
+  <ECUSettingsItem name="OutputTest Enable InjCH4">1</ECUSettingsItem>
   <ECUSettingsItem name="OutputTest Enable InjCH5">0</ECUSettingsItem>
   <ECUSettingsItem name="OutputTest Enable InjCH6">0</ECUSettingsItem>
   <ECUSettingsItem name="OutputTest Enable InjCH7">0</ECUSettingsItem>
@@ -708,7 +714,7 @@
   <ECUSettingsItem name="TriggerOsc Samplerate">6</ECUSettingsItem>
   <ECUSettingsItem name="TriggerOsc Triggermode">0</ECUSettingsItem>
   <ECUSettingsItem name="TriggerOsc TriggerSource">0</ECUSettingsItem>
-  <ECUSettingsItem name="TriggerLogger SecTrig Logger">0</ECUSettingsItem>
+  <ECUSettingsItem name="TriggerLogger SecTrig Logger">1</ECUSettingsItem>
   <ECUSettingsItem name="TriggerOsc AINCH 1">0</ECUSettingsItem>
   <ECUSettingsItem name="TriggerOsc AINCH 2">0</ECUSettingsItem>
   <ECUSettingsItem name="TriggerOsc Cylinder">0</ECUSettingsItem>
@@ -2477,7 +2483,7 @@
   <ECUSettingsItem name="USERAIN 1 Table Voltage">4.66,4.491,4.241,3.897,3.471,2.986,2.483,2.019,1.594,1.249,0.962,0.743,0.573,0.444,0.349,0.273,0.217,0.172</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 1 Table Value">-40,-30,-20,-10,0,10,20,30,40,50,60,70,80,90,100,110,120,130</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 1 Name">Temp sensor</ECUSettingsItem>
-  <ECUSettingsItem name="USERAIN 1 Unit">°C</ECUSettingsItem>
+  <ECUSettingsItem name="USERAIN 1 Unit">?C</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 1 Filter">255</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 1 Converter">1</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 1 Offset">0</ECUSettingsItem>
@@ -2540,34 +2546,33 @@
   <ECUSettingsItem name="Shiftlight Gear 4">5000</ECUSettingsItem>
   <ECUSettingsItem name="Shiftlight Gear 5">5000</ECUSettingsItem>
   <ECUSettingsItem name="Shiftlight Gear 6">6000</ECUSettingsItem>
-  <DynamicTable name="Extra Fuel Table 1 data" AxisPageMemAddr="3140" tableSettingsBits="0">
-    <DynamicTableAxis name="X" AxisCellCount="10" AxisDataSource="61" StepMode="False">0,889,1778,2667,3556,4444,5333,6222,7111,8000</DynamicTableAxis>
-    <DynamicTableAxis name="Y" AxisCellCount="8" AxisDataSource="19" StepMode="False">0,14.3,28.6,42.9,57.1,71.4,85.7,100</DynamicTableAxis>
+  <DynamicTable name="Extra Fuel Table 1 data" AxisPageMemAddr="703" tableSettingsBits="0">
+    <DynamicTableAxis name="X" AxisCellCount="2" AxisDataSource="61" StepMode="False">1000,8000</DynamicTableAxis>
+    <DynamicTableAxis name="Y" AxisCellCount="7" AxisDataSource="18" StepMode="False">0,10,20,30,40,50,60</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="10" YSize="8" DynamicMemoryAddress="3185">0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0</DynamicTableData>
+    <DynamicTableData XSize="2" YSize="7" DynamicMemoryAddress="730">92,92
+93.3,93.3
+94.7,94.7
+96,96
+97.3,97.3
+98.7,98.7
+100,100</DynamicTableData>
   </DynamicTable>
-  <DynamicTable name="Extra Fuel Table 2 data" AxisPageMemAddr="3350" tableSettingsBits="0">
-    <DynamicTableAxis name="X" AxisCellCount="11" AxisDataSource="61" StepMode="False">0,727,1455,2182,2909,3636,4364,5091,5818,6545,7273</DynamicTableAxis>
-    <DynamicTableAxis name="Y" AxisCellCount="11" AxisDataSource="19" StepMode="False">0,10,20,30,40,50,60,70,80,90,100</DynamicTableAxis>
+  <DynamicTable name="Extra Fuel Table 2 data" AxisPageMemAddr="763" tableSettingsBits="0">
+    <DynamicTableAxis name="X" AxisCellCount="6" AxisDataSource="61" StepMode="False">3000,4000,5000,6000,7000,8000</DynamicTableAxis>
+    <DynamicTableAxis name="Y" AxisCellCount="11" AxisDataSource="188" StepMode="False">0,3.5,7,10.5,14,17.5,21,24.5,28,31.5,35</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="11" YSize="11" DynamicMemoryAddress="3403">0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0</DynamicTableData>
+    <DynamicTableData XSize="6" YSize="11" DynamicMemoryAddress="3140">0,0,0,0,0,0
+0,0,0,0,0,0
+0,0,0,0,0,0
+8,8,8,8,8,8
+10,10,10,10,10,9
+12.6,12.6,11.1,10.6,11.3,9.6
+12,12,12,12,12,10
+11,11,11,11,11.5,9.8
+12,12,12,12,12,10
+15,15,15,15,15,11.5
+19,18,18,18,18,13</DynamicTableData>
   </DynamicTable>
   <DynamicTable name="Extra Fuel Table 3 data" AxisPageMemAddr="3650" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="4" AxisDataSource="61" StepMode="False">1000,2000,3000,4000</DynamicTableAxis>
@@ -3607,7 +3612,7 @@
   <ECUSettingsItem name="CamPos 1 Source">0</ECUSettingsItem>
   <ECUSettingsItem name="CamPos 1 TrigSys">0</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 Min RPM">500</ECUSettingsItem>
-  <ECUSettingsItem name="VVT1 Min CLT">-40</ECUSettingsItem>
+  <ECUSettingsItem name="VVT1 Min CLT">45</ECUSettingsItem>
   <ECUSettingsItem name="CamPos 1 AllowOverlap">0</ECUSettingsItem>
   <ECUSettingsItem name="CamPos 1 ResetTooth">0</ECUSettingsItem>
   <ECUSettingsItem name="CamPos 2 Offset">50</ECUSettingsItem>
@@ -3640,19 +3645,18 @@
   <ECUSettingsItem name="VVT4 Min CLT">-40</ECUSettingsItem>
   <ECUSettingsItem name="CamPos 4 AllowOverlap">0</ECUSettingsItem>
   <ECUSettingsItem name="CamPos 4 ResetTooth">0</ECUSettingsItem>
-  <DynamicTable name="VVT Intake Target Table data" AxisPageMemAddr="6490" tableSettingsBits="0">
+  <DynamicTable name="VVT Intake Target Table data" AxisPageMemAddr="5458" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="9" AxisDataSource="61" StepMode="False">1000,1500,2000,3000,4000,5000,6000,7000,8000</DynamicTableAxis>
-    <DynamicTableAxis name="Y" AxisCellCount="9" AxisDataSource="20" StepMode="False">40,60,80,100,125,150,200,250,300</DynamicTableAxis>
+    <DynamicTableAxis name="Y" AxisCellCount="8" AxisDataSource="19" StepMode="False">0,14.3,28.6,42.9,57.1,71.4,85.7,100</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="9" YSize="9" DynamicMemoryAddress="6535">0,0,0,0,0,0,0,0,0
+    <DynamicTableData XSize="9" YSize="8" DynamicMemoryAddress="5501">0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0
-15,15,15,10,10,5,0,0,0
-30,30,30,25,15,10,0,0,0
-40,40,40,35,25,15,5,0,0
-45,45,45,40,30,20,5,0,0
-45,45,45,40,30,20,5,0,0
-45,45,45,40,30,20,5,0,0</DynamicTableData>
+0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0</DynamicTableData>
   </DynamicTable>
   <DynamicTable name="VVT Exhaust Target Table data" AxisPageMemAddr="6702" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="8" AxisDataSource="61" StepMode="False">1000,2000,3000,4000,5000,6000,7000,8000</DynamicTableAxis>
@@ -3667,18 +3671,18 @@
 17.6,21.8,26.1,24.1,22,20,18.6,17.2
 20,25,30,26.7,23.3,20,17.5,15</DynamicTableData>
   </DynamicTable>
-  <ECUSettingsItem name="VVT1 Enable">0</ECUSettingsItem>
+  <ECUSettingsItem name="VVT1 Enable">1</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 Predef">0</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 Ctrltype">2</ECUSettingsItem>
-  <ECUSettingsItem name="VVT1 Freq">50</ECUSettingsItem>
-  <ECUSettingsItem name="VVT1 Enable Testmode">0</ECUSettingsItem>
-  <ECUSettingsItem name="VVT1 Test duty">0</ECUSettingsItem>
-  <ECUSettingsItem name="VVT1 Test length">0.1</ECUSettingsItem>
-  <ECUSettingsItem name="VVT1 Min Duty">-100</ECUSettingsItem>
+  <ECUSettingsItem name="VVT1 Freq">100</ECUSettingsItem>
+  <ECUSettingsItem name="VVT1 Enable Testmode">1</ECUSettingsItem>
+  <ECUSettingsItem name="VVT1 Test duty">100</ECUSettingsItem>
+  <ECUSettingsItem name="VVT1 Test length">0.3</ECUSettingsItem>
+  <ECUSettingsItem name="VVT1 Min Duty">40</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 Max Duty">100</ECUSettingsItem>
-  <ECUSettingsItem name="VVT1 Min Target Angle">3</ECUSettingsItem>
-  <ECUSettingsItem name="VVT1 Max Target Angle">37</ECUSettingsItem>
-  <ECUSettingsItem name="VVT1 P Gain">20</ECUSettingsItem>
+  <ECUSettingsItem name="VVT1 Min Target Angle">0</ECUSettingsItem>
+  <ECUSettingsItem name="VVT1 Max Target Angle">35</ECUSettingsItem>
+  <ECUSettingsItem name="VVT1 P Gain">8</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 I Gain">10</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 D Gain">5</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 Direction">1</ECUSettingsItem>
@@ -3811,10 +3815,10 @@
   <ECUSettingsItem name="DBW TPS Main Voltage Open">4</ECUSettingsItem>
   <ECUSettingsItem name="DBW TPS Sub Voltage Closed">4</ECUSettingsItem>
   <ECUSettingsItem name="DBW TPS Sub Voltage Open">1</ECUSettingsItem>
-  <ECUSettingsItem name="DBW FPS Main Voltage Closed">1</ECUSettingsItem>
-  <ECUSettingsItem name="DBW FPS Main Voltage Open">4</ECUSettingsItem>
-  <ECUSettingsItem name="DBW FPS Sub Voltage Closed">4</ECUSettingsItem>
-  <ECUSettingsItem name="DBW FPS Sub Voltage Open">1</ECUSettingsItem>
+  <ECUSettingsItem name="DBW FPS Main Voltage Closed">0.672</ECUSettingsItem>
+  <ECUSettingsItem name="DBW FPS Main Voltage Open">3.414</ECUSettingsItem>
+  <ECUSettingsItem name="DBW FPS Sub Voltage Closed">0.658</ECUSettingsItem>
+  <ECUSettingsItem name="DBW FPS Sub Voltage Open">3.425</ECUSettingsItem>
   <ECUSettingsItem name="DBW P Gain">40</ECUSettingsItem>
   <ECUSettingsItem name="DBW I Gain">60</ECUSettingsItem>
   <ECUSettingsItem name="DBW D Gain">100</ECUSettingsItem>
@@ -3861,7 +3865,7 @@
   <ECUSettingsItem name="DBW D GainLow">100</ECUSettingsItem>
   <ECUSettingsItem name="DBW ExtraAjd Multiply">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW ExtraAjd Add">0</ECUSettingsItem>
-  <ECUSettingsItem name="DBW Motor Enable">0</ECUSettingsItem>
+  <ECUSettingsItem name="DBW Motor Enable">1</ECUSettingsItem>
   <ECUSettingsItem name="DBW PID Speed">1</ECUSettingsItem>
   <ECUSettingsItem name="DBW TPS 2 Main Voltage Closed">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW TPS 2 Main Voltage Open">0</ECUSettingsItem>
@@ -3878,8 +3882,8 @@
   <ECUSettingsItem name="DBW PedalFilter Enable">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW PedalFilter Alpha">87</ECUSettingsItem>
   <ECUSettingsItem name="DBW DualPID SwitchAtRest">0</ECUSettingsItem>
-  <ECUSettingsItem name="DBW FPS Backup MainTable Backpt">0,20,40,60,80,100</ECUSettingsItem>
-  <ECUSettingsItem name="DBW FPS Backup MainTable Mainpt">0,20,40,60,80,100</ECUSettingsItem>
+  <ECUSettingsItem name="DBW FPS Backup MainTable Backpt">0,20.1,42.4,62.3,81,100</ECUSettingsItem>
+  <ECUSettingsItem name="DBW FPS Backup MainTable Mainpt">0,21.5,43.5,63.1,81.4,100</ECUSettingsItem>
   <ECUSettingsItem name="DBW PID Multiply">1</ECUSettingsItem>
   <ECUSettingsItem name="DBW PID Predef">30017</ECUSettingsItem>
   <ECUSettingsItem name="DBW Target Use Secondary Table">0</ECUSettingsItem>
@@ -8219,8 +8223,8 @@
   <ECUSettingsItem name="GearCounter DownDelay 3">0</ECUSettingsItem>
   <ECUSettingsItem name="GearCounter DownDelay 4">0</ECUSettingsItem>
   <ECUSettingsItem name="GearCounter DownDelay 5">0</ECUSettingsItem>
-  <ECUSettingsItem name="ExtraFuelTable 1 TextName"></ECUSettingsItem>
-  <ECUSettingsItem name="ExtraFuelTable 2 TextName"></ECUSettingsItem>
+  <ECUSettingsItem name="ExtraFuelTable 1 TextName">Warmup fuel</ECUSettingsItem>
+  <ECUSettingsItem name="ExtraFuelTable 2 TextName">VTC fuel</ECUSettingsItem>
   <ECUSettingsItem name="ExtraFuelTable 3 TextName"></ECUSettingsItem>
   <ECUSettingsItem name="ExtraIgnTable 1 TextName"></ECUSettingsItem>
   <ECUSettingsItem name="ExtraIgnTable 2 TextName"></ECUSettingsItem>
