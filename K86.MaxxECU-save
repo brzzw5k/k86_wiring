@@ -7,7 +7,7 @@
     <ECUFeatures>0</ECUFeatures>
     <ECUSerial>JZHVXI</ECUSerial>
     <EcuHWType>RACE</EcuHWType>
-    <Edittime>2024-07-05 20:11:12</Edittime>
+    <Edittime>2024-07-06 00:14:12</Edittime>
   </Fileinfo>
   <ECUSettingsItem name="IATSensor Input Voltage">4.66,4.491,4.241,3.897,3.471,2.986,2.483,2.019,1.594,1.249,0.962,0.743,0.573,0.444,0.349,0.273,0.217,0.172</ECUSettingsItem>
   <ECUSettingsItem name="IATSensor Output Temperature">-40,-30,-20,-10,0,10,20,30,40,50,60,70,80,90,100,110,120,130</ECUSettingsItem>
@@ -758,7 +758,7 @@
   <ECUSettingsItem name="GPO 1 On Delay">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 1 Off Delay">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 1 Output Invert">0</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 1 Output Blink">1</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 1 Output Blink">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 1 VDIN Func Dummy">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 1 In A Hysteresis">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 1 In B Hysteresis">0</ECUSettingsItem>
@@ -2477,7 +2477,7 @@
   <ECUSettingsItem name="USERAIN 1 Predef">1</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 1 Table Voltage">4.66,4.491,4.241,3.897,3.471,2.986,2.483,2.019,1.594,1.249,0.962,0.743,0.573,0.444,0.349,0.273,0.217,0.172</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 1 Table Value">-40,-30,-20,-10,0,10,20,30,40,50,60,70,80,90,100,110,120,130</ECUSettingsItem>
-  <ECUSettingsItem name="USERAIN 1 Name">Temp sensor</ECUSettingsItem>
+  <ECUSettingsItem name="USERAIN 1 Name">Oil temp</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 1 Unit">?C</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 1 Filter">255</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 1 Converter">1</ECUSettingsItem>
@@ -2501,7 +2501,7 @@
   <ECUSettingsItem name="USERAIN 3 Predef">1009</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 3 Table Voltage">0.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 3 Table Value">0,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000</ECUSettingsItem>
-  <ECUSettingsItem name="USERAIN 3 Name">Pressure sensor</ECUSettingsItem>
+  <ECUSettingsItem name="USERAIN 3 Name">Oil press</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 3 Unit">kPa</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 3 Filter">255</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 3 Converter">3</ECUSettingsItem>
@@ -2513,7 +2513,7 @@
   <ECUSettingsItem name="USERAIN 4 Predef">1009</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 4 Table Voltage">0.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 4 Table Value">0,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000</ECUSettingsItem>
-  <ECUSettingsItem name="USERAIN 4 Name">Pressure sensor</ECUSettingsItem>
+  <ECUSettingsItem name="USERAIN 4 Name">Fuel press</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 4 Unit">kPa</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 4 Filter">255</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 4 Converter">3</ECUSettingsItem>
@@ -7514,13 +7514,13 @@
   <ECUSettingsItem name="Voltage Filter">0</ECUSettingsItem>
   <ECUSettingsItem name="Voltage Cut Enable">18</ECUSettingsItem>
   <ECUSettingsItem name="TPS AIN 1 Class">100</ECUSettingsItem>
-  <ECUSettingsItem name="TPS AIN 1 Predef">130</ECUSettingsItem>
-  <ECUSettingsItem name="TPS AIN 1 Table Voltage">0.32,4.79,4.79,4.79,4.79,4.79,4.79,4.79,4.79,4.79,4.79,4.79,4.79,4.79,4.79,4.79,4.79,4.79</ECUSettingsItem>
-  <ECUSettingsItem name="TPS AIN 1 Table Value">11.7,176.8,176.8,176.8,176.8,176.8,176.8,176.8,176.8,176.8,176.8,176.8,176.8,176.8,176.8,176.8,176.8,176.8</ECUSettingsItem>
-  <ECUSettingsItem name="TPS AIN 1 Name">Pressure sensor</ECUSettingsItem>
+  <ECUSettingsItem name="TPS AIN 1 Predef">0</ECUSettingsItem>
+  <ECUSettingsItem name="TPS AIN 1 Table Voltage">0.5,0.753,1.006,1.259,1.512,1.765,2.018,2.271,2.524,2.776,3,3.282,3.535,3.788,4.041,4.294,4.547,4.8</ECUSettingsItem>
+  <ECUSettingsItem name="TPS AIN 1 Table Value">-182.7,-163.9,-145.1,-126.3,-107.4,-88.6,-69.8,-51,-32.2,-13.3,3.3,14.3,23.5,32.6,41.7,50.9,60,69.1</ECUSettingsItem>
+  <ECUSettingsItem name="TPS AIN 1 Name">MAP</ECUSettingsItem>
   <ECUSettingsItem name="TPS AIN 1 Unit">kPa</ECUSettingsItem>
   <ECUSettingsItem name="TPS AIN 1 Filter">255</ECUSettingsItem>
-  <ECUSettingsItem name="TPS AIN 1 Converter">2</ECUSettingsItem>
+  <ECUSettingsItem name="TPS AIN 1 Converter">3</ECUSettingsItem>
   <ECUSettingsItem name="TPS AIN 1 Offset">0</ECUSettingsItem>
   <ECUSettingsItem name="TPS AIN 1 VoltageSource">0</ECUSettingsItem>
   <ECUSettingsItem name="TPS AIN 1 Scale">0</ECUSettingsItem>
