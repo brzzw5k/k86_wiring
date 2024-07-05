@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
 <MaxxECUSettingsFile>
   <Fileinfo>
-    <Softwareversion>1.149</Softwareversion>
+    <Softwareversion>1.150</Softwareversion>
     <ECUHWVersion>13</ECUHWVersion>
-    <ECUFWVersion>1.149.17257</ECUFWVersion>
+    <ECUFWVersion>1.150</ECUFWVersion>
     <ECUFeatures>0</ECUFeatures>
     <ECUSerial>JZHVXI</ECUSerial>
     <EcuHWType>RACE</EcuHWType>
-    <Edittime>2024-06-25 01:22:01</Edittime>
+    <Edittime>2024-07-05 20:11:12</Edittime>
   </Fileinfo>
   <ECUSettingsItem name="IATSensor Input Voltage">4.66,4.491,4.241,3.897,3.471,2.986,2.483,2.019,1.594,1.249,0.962,0.743,0.573,0.444,0.349,0.273,0.217,0.172</ECUSettingsItem>
   <ECUSettingsItem name="IATSensor Output Temperature">-40,-30,-20,-10,0,10,20,30,40,50,60,70,80,90,100,110,120,130</ECUSettingsItem>
@@ -86,33 +86,34 @@
   <ECUSettingsItem name="Overrun Rampout Time">0</ECUSettingsItem>
   <ECUSettingsItem name="Fuel Inj Type">0</ECUSettingsItem>
   <DynamicTable name="Fuel Crank Table data" AxisPageMemAddr="68" tableSettingsBits="0">
-    <DynamicTableAxis name="X" AxisCellCount="8" AxisDataSource="18" StepMode="False">-30,-10,5,20,40,55,75,90</DynamicTableAxis>
+    <DynamicTableAxis name="X" AxisCellCount="14" AxisDataSource="18" StepMode="False">-40,-20,-10,0,10,20,30,40,50,60,70,80,90,100</DynamicTableAxis>
     <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="8" YSize="1" DynamicMemoryAddress="95">320,283.3,255.8,228.3,191.7,164.2,127.5,100</DynamicTableData>
+    <DynamicTableData XSize="14" YSize="1" DynamicMemoryAddress="2894">250,220,200,180,150,120,100,80,60,50,50,50,50,50</DynamicTableData>
   </DynamicTable>
-  <DynamicTable name="Fuel Warmup Table data" AxisPageMemAddr="116" tableSettingsBits="0">
-    <DynamicTableAxis name="X" AxisCellCount="8" AxisDataSource="18" StepMode="False">-30,-15,0,15,30,45,60,75</DynamicTableAxis>
+  <DynamicTable name="Fuel Warmup Table data" AxisPageMemAddr="107" tableSettingsBits="8">
+    <DynamicTableAxis name="X" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="8" YSize="1" DynamicMemoryAddress="143">40,33.2,26.4,19.6,12.8,6,0,0</DynamicTableData>
+    <DynamicTableData XSize="1" YSize="1" DynamicMemoryAddress="0">0</DynamicTableData>
   </DynamicTable>
-  <DynamicTable name="Fuel ASE Table data" AxisPageMemAddr="164" tableSettingsBits="0">
+  <DynamicTable name="Fuel ASE Table data" AxisPageMemAddr="146" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="6" AxisDataSource="69" StepMode="False">0,5,10,20,40,60</DynamicTableAxis>
-    <DynamicTableAxis name="Y" AxisCellCount="6" AxisDataSource="18" StepMode="False">0,20,40,60,80,100</DynamicTableAxis>
+    <DynamicTableAxis name="Y" AxisCellCount="7" AxisDataSource="18" StepMode="False">-20,0,20,40,60,80,100</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="6" YSize="6" DynamicMemoryAddress="197">100,50,20,0,0,0
-81.2,40.8,16.4,0,0,0
-62.4,31.6,12.8,0,0,0
-43.6,22.4,9.2,0,0,0
-24.8,13.2,5.6,0,0,0
-6,4,2,0,0,0</DynamicTableData>
+    <DynamicTableData XSize="6" YSize="7" DynamicMemoryAddress="181">44,36,24,8,4,2
+35,28,17,5,2,0
+25,20,10,2,1,0
+15,9,2,1,0,0
+10,6,1,0,0,0
+8,4,0,0,0,0
+8,4,0,0,0,0</DynamicTableData>
   </DynamicTable>
   <DynamicTable name="Fuel IATCorr Table data" AxisPageMemAddr="274" tableSettingsBits="0">
-    <DynamicTableAxis name="X" AxisCellCount="12" AxisDataSource="17" StepMode="False">-40,-20,0,20,40,50,60,70,80,90,100,110</DynamicTableAxis>
-    <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
+    <DynamicTableAxis name="X" AxisCellCount="13" AxisDataSource="17" StepMode="False">-40,-30,-20,0,20,40,50,60,70,80,90,100,110</DynamicTableAxis>
+    <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="19" StepMode="False">0</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="12" YSize="1" DynamicMemoryAddress="309">12,8.3,4.7,1,0,0,0,-1.2,-2.4,-3.6,-4.8,-6</DynamicTableData>
+    <DynamicTableData XSize="13" YSize="1" DynamicMemoryAddress="3373">12,10.2,8.3,4.7,1,0,0,0,-1.2,-2.4,-3.6,-4.8,-6</DynamicTableData>
   </DynamicTable>
   <ECUSettingsItem name="AccEnrichment Enable">2</ECUSettingsItem>
   <ECUSettingsItem name="AccEnrichment HoldTime">0.1</ECUSettingsItem>
@@ -169,19 +170,19 @@
     <DynamicTableAxis name="X" AxisCellCount="16" AxisDataSource="61" StepMode="False">1000,1500,2000,2500,3000,3500,4000,4500,5000,5500,6000,6500,7000,7500,8000,8500</DynamicTableAxis>
     <DynamicTableAxis name="Y" AxisCellCount="13" AxisDataSource="19" StepMode="False">0,8.3,16.7,25,33.3,41.7,50,58.3,66.7,75,83.3,91.7,100</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="16" YSize="13" DynamicMemoryAddress="936">0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96,0.96
-0.953,0.953,0.953,0.953,0.953,0.953,0.953,0.952,0.952,0.952,0.952,0.951,0.951,0.951,0.95,0.95
-0.947,0.947,0.947,0.947,0.947,0.946,0.945,0.945,0.944,0.944,0.943,0.942,0.942,0.941,0.941,0.94
-0.94,0.94,0.94,0.94,0.94,0.939,0.938,0.937,0.936,0.936,0.934,0.934,0.933,0.932,0.931,0.93
-0.933,0.933,0.933,0.933,0.933,0.932,0.931,0.93,0.928,0.927,0.926,0.925,0.924,0.922,0.921,0.92
-0.927,0.927,0.927,0.927,0.927,0.925,0.924,0.922,0.92,0.919,0.917,0.916,0.915,0.913,0.912,0.91
-0.92,0.92,0.92,0.92,0.92,0.918,0.917,0.915,0.913,0.912,0.91,0.909,0.908,0.906,0.904,0.902
-0.918,0.918,0.918,0.918,0.918,0.916,0.916,0.914,0.912,0.912,0.91,0.909,0.908,0.907,0.905,0.904
-0.916,0.916,0.916,0.916,0.916,0.915,0.914,0.913,0.912,0.911,0.91,0.909,0.909,0.908,0.906,0.905
-0.914,0.914,0.914,0.914,0.914,0.913,0.913,0.912,0.911,0.911,0.91,0.91,0.909,0.908,0.908,0.907
-0.912,0.912,0.912,0.912,0.912,0.912,0.911,0.911,0.911,0.91,0.91,0.91,0.91,0.909,0.909,0.908
-0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9
-0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9,0.9</DynamicTableData>
+    <DynamicTableData XSize="16" YSize="13" DynamicMemoryAddress="936">1,1,1,1,1,1,1,0.95,0.9,0.89,0.88,0.87,0.87,0.86,0.86,0.86
+1,1,1,1,1,1,1,0.95,0.9,0.89,0.88,0.87,0.87,0.86,0.86,0.86
+1,1,1,1,1,1,1,0.95,0.9,0.89,0.88,0.87,0.87,0.86,0.86,0.86
+0.95,0.95,0.95,0.95,0.95,0.95,0.95,0.95,0.89,0.885,0.88,0.87,0.87,0.86,0.86,0.86
+0.89,0.89,0.89,0.89,0.89,0.89,0.88,0.88,0.88,0.87,0.87,0.87,0.87,0.86,0.86,0.86
+0.89,0.89,0.89,0.89,0.89,0.89,0.88,0.87,0.86,0.86,0.86,0.86,0.86,0.86,0.86,0.86
+0.89,0.89,0.89,0.89,0.89,0.89,0.88,0.87,0.86,0.86,0.86,0.86,0.86,0.86,0.86,0.86
+0.89,0.89,0.89,0.89,0.89,0.89,0.88,0.87,0.86,0.86,0.86,0.86,0.86,0.86,0.86,0.86
+0.89,0.89,0.89,0.89,0.89,0.89,0.88,0.87,0.86,0.86,0.86,0.86,0.86,0.86,0.86,0.86
+0.89,0.89,0.89,0.89,0.89,0.89,0.88,0.87,0.86,0.86,0.86,0.86,0.86,0.86,0.86,0.86
+0.89,0.89,0.89,0.89,0.89,0.89,0.88,0.87,0.86,0.86,0.86,0.86,0.86,0.86,0.86,0.86
+0.89,0.89,0.89,0.89,0.89,0.89,0.88,0.87,0.86,0.86,0.86,0.86,0.86,0.86,0.86,0.86
+0.89,0.89,0.89,0.89,0.89,0.89,0.88,0.87,0.86,0.86,0.86,0.86,0.86,0.86,0.86,0.86</DynamicTableData>
   </DynamicTable>
   <ECUSettingsItem name="Trigger Input Type">0</ECUSettingsItem>
   <ECUSettingsItem name="Home Input Type">0</ECUSettingsItem>
@@ -189,7 +190,7 @@
   <ECUSettingsItem name="Home Pullup">1</ECUSettingsItem>
   <ECUSettingsItem name="Trigger Polarity">0</ECUSettingsItem>
   <ECUSettingsItem name="Home Polarity">0</ECUSettingsItem>
-  <ECUSettingsItem name="Inhibit Fuel">0</ECUSettingsItem>
+  <ECUSettingsItem name="Inhibit Fuel">1</ECUSettingsItem>
   <ECUSettingsItem name="Trigger MissingTooth StartWithoutCam">0</ECUSettingsItem>
   <ECUSettingsItem name="Trig voltage RPMPt">700,1600,4000,4000</ECUSettingsItem>
   <ECUSettingsItem name="Trig voltage TrigVoltagePt">0.2,0.4,2,2</ECUSettingsItem>
@@ -221,14 +222,14 @@
   <ECUSettingsItem name="Trigger Adv Crank Missing Ignore Second Gap">0</ECUSettingsItem>
   <ECUSettingsItem name="Ign Method">1</ECUSettingsItem>
   <ECUSettingsItem name="Ign Extra table func">0</ECUSettingsItem>
-  <ECUSettingsItem name="Ign Dwelltime">2.4</ECUSettingsItem>
+  <ECUSettingsItem name="Ign Dwelltime">3</ECUSettingsItem>
   <ECUSettingsItem name="Ign Minsparktime">1</ECUSettingsItem>
   <ECUSettingsItem name="Ign Dwellmode">0</ECUSettingsItem>
   <ECUSettingsItem name="Ign Dwellduty">50</ECUSettingsItem>
-  <ECUSettingsItem name="Ign Dwell BattcorrPt">150,130,110,100,100,100</ECUSettingsItem>
+  <ECUSettingsItem name="Ign Dwell BattcorrPt">125,117,109,100,93,85</ECUSettingsItem>
   <ECUSettingsItem name="Ign Angle Trim">0</ECUSettingsItem>
   <ECUSettingsItem name="Ign Enable Lock Angle">0</ECUSettingsItem>
-  <ECUSettingsItem name="Ign Angle Lock">0</ECUSettingsItem>
+  <ECUSettingsItem name="Ign Angle Lock">8</ECUSettingsItem>
   <ECUSettingsItem name="Ign Crank Angle">10</ECUSettingsItem>
   <ECUSettingsItem name="Ign Dwell VBattPt">8,10,12,14,16,18</ECUSettingsItem>
   <ECUSettingsItem name="Ign Dwell MAPcorr MAPPt">20,55.8,91.7,128.2,164.1,199.9</ECUSettingsItem>
@@ -374,7 +375,7 @@
   </DynamicTable>
   <ECUSettingsItem name="Ign Idlelock Enable">2</ECUSettingsItem>
   <ECUSettingsItem name="Ign Idlelock Angle">10</ECUSettingsItem>
-  <ECUSettingsItem name="Ign Idlelock MaxTPS">2</ECUSettingsItem>
+  <ECUSettingsItem name="Ign Idlelock MaxTPS">3</ECUSettingsItem>
   <ECUSettingsItem name="Ign Idlelock MaxRPM">2000</ECUSettingsItem>
   <DynamicTable name="IgnAdv Table 1 data" AxisPageMemAddr="638" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="17" AxisDataSource="61" StepMode="False">1000,1200,1600,2000,2500,3000,3500,4000,4500,5000,5500,6000,6500,7000,7500,8000,8500</DynamicTableAxis>
@@ -646,8 +647,8 @@
   <ECUSettingsItem name="DIN 2 Pullup">1</ECUSettingsItem>
   <ECUSettingsItem name="DIN 1 VREnable">0</ECUSettingsItem>
   <ECUSettingsItem name="DIN 2 VREnable">0</ECUSettingsItem>
-  <ECUSettingsItem name="DIN PinFunc 24">168</ECUSettingsItem>
-  <ECUSettingsItem name="DIN PinFunc 25">177</ECUSettingsItem>
+  <ECUSettingsItem name="DIN PinFunc 24">255</ECUSettingsItem>
+  <ECUSettingsItem name="DIN PinFunc 25">255</ECUSettingsItem>
   <ECUSettingsItem name="DIN PinFunc 26">255</ECUSettingsItem>
   <ECUSettingsItem name="DIN PinFunc 27">255</ECUSettingsItem>
   <ECUSettingsItem name="DIN PinFunc 28">0</ECUSettingsItem>
@@ -672,7 +673,7 @@
   <ECUSettingsItem name="DIN 5 VREnable">0</ECUSettingsItem>
   <ECUSettingsItem name="DIN 4 Pullup">0</ECUSettingsItem>
   <ECUSettingsItem name="DIN 5 Pullup">0</ECUSettingsItem>
-  <ECUSettingsItem name="OutputTest Mode">4</ECUSettingsItem>
+  <ECUSettingsItem name="OutputTest Mode">2</ECUSettingsItem>
   <ECUSettingsItem name="OutputTest TempShutoff Outputs">0</ECUSettingsItem>
   <ECUSettingsItem name="OutputTest Freq">10</ECUSettingsItem>
   <ECUSettingsItem name="OutputTest InjWidth">5</ECUSettingsItem>
@@ -714,7 +715,7 @@
   <ECUSettingsItem name="TriggerOsc Samplerate">6</ECUSettingsItem>
   <ECUSettingsItem name="TriggerOsc Triggermode">0</ECUSettingsItem>
   <ECUSettingsItem name="TriggerOsc TriggerSource">0</ECUSettingsItem>
-  <ECUSettingsItem name="TriggerLogger SecTrig Logger">1</ECUSettingsItem>
+  <ECUSettingsItem name="TriggerLogger SecTrig Logger">0</ECUSettingsItem>
   <ECUSettingsItem name="TriggerOsc AINCH 1">0</ECUSettingsItem>
   <ECUSettingsItem name="TriggerOsc AINCH 2">0</ECUSettingsItem>
   <ECUSettingsItem name="TriggerOsc Cylinder">0</ECUSettingsItem>
@@ -944,9 +945,9 @@
   <ECUSettingsItem name="GPO 10 In C Hysteresis">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 10 In A Second Var ID">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 10 VDIN Func 2">255</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 11 In A ID">61</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 11 In A Op">2</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 11 In A Compare">2000</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 11 In A ID">750</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 11 In A Op">0</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 11 In A Compare">1</ECUSettingsItem>
   <ECUSettingsItem name="GPO 11 In B ID">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 11 In B Op">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 11 In B Compare">0</ECUSettingsItem>
@@ -958,7 +959,7 @@
   <ECUSettingsItem name="GPO 11 Off Delay">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 11 Output Invert">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 11 Output Blink">0</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 11 VDIN Func">255</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 11 VDIN Func">27</ECUSettingsItem>
   <ECUSettingsItem name="GPO 11 In A Hysteresis">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 11 In B Hysteresis">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 11 In C Hysteresis">0</ECUSettingsItem>
@@ -1124,25 +1125,25 @@
   <ECUSettingsItem name="GPO 19 In C Hysteresis">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 19 In A Second Var ID">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 19 VDIN Func 2">255</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 20 In A ID">0</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 20 In A ID">472</ECUSettingsItem>
   <ECUSettingsItem name="GPO 20 In A Op">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 20 In A Compare">0</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 20 In B ID">0</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 20 In B ID">472</ECUSettingsItem>
   <ECUSettingsItem name="GPO 20 In B Op">0</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 20 In B Compare">0</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 20 In C ID">0</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 20 In B Compare">200</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 20 In C ID">472</ECUSettingsItem>
   <ECUSettingsItem name="GPO 20 In C Op">0</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 20 In C Compare">0</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 20 Final Op">0</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 20 In C Compare">400</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 20 Final Op">31</ECUSettingsItem>
   <ECUSettingsItem name="GPO 20 On Delay">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 20 Off Delay">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 20 Output Invert">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 20 Output Blink">0</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 20 VDIN Func">255</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 20 In A Hysteresis">0</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 20 VDIN Func">35</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 20 In A Hysteresis">10</ECUSettingsItem>
   <ECUSettingsItem name="GPO 20 In B Hysteresis">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 20 In C Hysteresis">0</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 20 In A Second Var ID">0</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 20 In A Second Var ID">389</ECUSettingsItem>
   <ECUSettingsItem name="GPO 20 VDIN Func 2">255</ECUSettingsItem>
   <ECUSettingsItem name="GPO 21 In A ID">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 21 In A Op">0</ECUSettingsItem>
@@ -1549,7 +1550,7 @@
   <ECUSettingsItem name="GPO 8 Textname"></ECUSettingsItem>
   <ECUSettingsItem name="GPO 9 Textname"></ECUSettingsItem>
   <ECUSettingsItem name="GPO 10 Textname"></ECUSettingsItem>
-  <ECUSettingsItem name="GPO 11 Textname"></ECUSettingsItem>
+  <ECUSettingsItem name="GPO 11 Textname">Brake engaged</ECUSettingsItem>
   <ECUSettingsItem name="GPO 12 Textname"></ECUSettingsItem>
   <ECUSettingsItem name="GPO 13 Textname"></ECUSettingsItem>
   <ECUSettingsItem name="GPO 14 Textname"></ECUSettingsItem>
@@ -1558,7 +1559,7 @@
   <ECUSettingsItem name="GPO 17 Textname"></ECUSettingsItem>
   <ECUSettingsItem name="GPO 18 Textname"></ECUSettingsItem>
   <ECUSettingsItem name="GPO 19 Textname"></ECUSettingsItem>
-  <ECUSettingsItem name="GPO 20 Textname"></ECUSettingsItem>
+  <ECUSettingsItem name="GPO 20 Textname">BCM_1 Counter UP</ECUSettingsItem>
   <ECUSettingsItem name="GPO 21 Textname"></ECUSettingsItem>
   <ECUSettingsItem name="GPO 22 Textname"></ECUSettingsItem>
   <ECUSettingsItem name="GPO 23 Textname"></ECUSettingsItem>
@@ -1643,10 +1644,10 @@
   <ECUSettingsItem name="Fuelcyladj Offset 8">0</ECUSettingsItem>
   <ECUSettingsItem name="Primepulse Enable">1</ECUSettingsItem>
   <DynamicTable name="Primepulse Fuel Table data" AxisPageMemAddr="2108" tableSettingsBits="0">
-    <DynamicTableAxis name="X" AxisCellCount="8" AxisDataSource="18" StepMode="False">-30,-10,5,20,40,55,75,90</DynamicTableAxis>
+    <DynamicTableAxis name="X" AxisCellCount="14" AxisDataSource="18" StepMode="False">-40,-20,-10,0,10,20,30,40,50,60,70,80,90,100</DynamicTableAxis>
     <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="8" YSize="1" DynamicMemoryAddress="2135">120,110,100,80,60,30,20,10</DynamicTableData>
+    <DynamicTableData XSize="14" YSize="1" DynamicMemoryAddress="2960">600,500,450,350,250,180,120,80,60,60,60,60,60,60</DynamicTableData>
   </DynamicTable>
   <ECUSettingsItem name="Launchctrl Enable">0</ECUSettingsItem>
   <ECUSettingsItem name="Launchctrl RPM Limit">4000</ECUSettingsItem>
@@ -1802,7 +1803,7 @@
   <ECUSettingsItem name="KnockCtrl CylMap11">0</ECUSettingsItem>
   <ECUSettingsItem name="KnockCtrl CylMap12">0</ECUSettingsItem>
   <ECUSettingsItem name="KnockCtrl Diameter">87</ECUSettingsItem>
-  <ECUSettingsItem name="KnockCtrl Retard Enable">0</ECUSettingsItem>
+  <ECUSettingsItem name="KnockCtrl Retard Enable">2</ECUSettingsItem>
   <ECUSettingsItem name="KnockCtrl Retard MaxRet">10</ECUSettingsItem>
   <ECUSettingsItem name="CAN1 BitRate">0</ECUSettingsItem>
   <ECUSettingsItem name="CAN2 BitRate">0</ECUSettingsItem>
@@ -1846,7 +1847,7 @@
   <ECUSettingsItem name="GPO 17 In D ID">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 18 In D ID">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 19 In D ID">0</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 20 In D ID">0</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 20 In D ID">472</ECUSettingsItem>
   <ECUSettingsItem name="GPO 21 In D ID">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 22 In D ID">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 1 In D Op">0</ECUSettingsItem>
@@ -1890,7 +1891,7 @@
   <ECUSettingsItem name="GPO 17 In D Compare">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 18 In D Compare">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 19 In D Compare">0</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 20 In D Compare">0</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 20 In D Compare">600</ECUSettingsItem>
   <ECUSettingsItem name="GPO 21 In D Compare">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 22 In D Compare">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 1 In E ID">0</ECUSettingsItem>
@@ -1912,7 +1913,7 @@
   <ECUSettingsItem name="GPO 17 In E ID">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 18 In E ID">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 19 In E ID">0</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 20 In E ID">0</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 20 In E ID">472</ECUSettingsItem>
   <ECUSettingsItem name="GPO 21 In E ID">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 22 In E ID">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 1 In E Op">0</ECUSettingsItem>
@@ -1956,7 +1957,7 @@
   <ECUSettingsItem name="GPO 17 In E Compare">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 18 In E Compare">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 19 In E Compare">0</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 20 In E Compare">0</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 20 In E Compare">800</ECUSettingsItem>
   <ECUSettingsItem name="GPO 21 In E Compare">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 22 In E Compare">0</ECUSettingsItem>
   <ECUSettingsItem name="Show DevSettings">1</ECUSettingsItem>
@@ -2024,12 +2025,12 @@
   <ECUSettingsItem name="PulseOut 2 Time">0</ECUSettingsItem>
   <ECUSettingsItem name="PulseOut 3 Time">0</ECUSettingsItem>
   <ECUSettingsItem name="PulseOut 4 Time">0</ECUSettingsItem>
-  <ECUSettingsItem name="Ign CrankAngle UseTable">0</ECUSettingsItem>
-  <DynamicTable name="Ign CrankAngle Table data" AxisPageMemAddr="2156" tableSettingsBits="0">
-    <DynamicTableAxis name="X" AxisCellCount="6" AxisDataSource="18" StepMode="False">-20,0,20,40,60,80</DynamicTableAxis>
+  <ECUSettingsItem name="Ign CrankAngle UseTable">1</ECUSettingsItem>
+  <DynamicTable name="Ign CrankAngle Table data" AxisPageMemAddr="107" tableSettingsBits="0">
+    <DynamicTableAxis name="X" AxisCellCount="3" AxisDataSource="18" StepMode="False">-40,110,120</DynamicTableAxis>
     <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="6" YSize="1" DynamicMemoryAddress="2179">30,30,25,20,15,10</DynamicTableData>
+    <DynamicTableData XSize="3" YSize="1" DynamicMemoryAddress="124">4.6,4.6,5</DynamicTableData>
   </DynamicTable>
   <ECUSettingsItem name="Knock Induce Angle">0</ECUSettingsItem>
   <ECUSettingsItem name="Knock Induce Time">0.1</ECUSettingsItem>
@@ -2108,7 +2109,7 @@
   <ECUSettingsItem name="Transbrake Off Delay">0</ECUSettingsItem>
   <ECUSettingsItem name="RadiatorFan MaxSpeed">100</ECUSettingsItem>
   <ECUSettingsItem name="TrqMgm Use RPM Targets">0</ECUSettingsItem>
-  <ECUSettingsItem name="Pump Prime Time">2</ECUSettingsItem>
+  <ECUSettingsItem name="Pump Prime Time">1</ECUSettingsItem>
   <ECUSettingsItem name="Revlimit Secondary disable traction">0</ECUSettingsItem>
   <ECUSettingsItem name="IdleLockAngle Table Enable">1</ECUSettingsItem>
   <DynamicTable name="IdleLockAngle Table data" AxisPageMemAddr="2460" tableSettingsBits="0">
@@ -2121,15 +2122,15 @@
   <ECUSettingsItem name="RateOfChange 2 Enable">0</ECUSettingsItem>
   <ECUSettingsItem name="RateOfChange 3 Enable">0</ECUSettingsItem>
   <ECUSettingsItem name="RateOfChange 4 Enable">0</ECUSettingsItem>
-  <ECUSettingsItem name="RateOfChange 1 RT Index">21</ECUSettingsItem>
+  <ECUSettingsItem name="RateOfChange 1 RT Index">69</ECUSettingsItem>
   <ECUSettingsItem name="RateOfChange 2 RT Index">61</ECUSettingsItem>
   <ECUSettingsItem name="RateOfChange 3 RT Index">61</ECUSettingsItem>
   <ECUSettingsItem name="RateOfChange 4 RT Index">61</ECUSettingsItem>
-  <ECUSettingsItem name="RateOfChange 1 Alpha">88</ECUSettingsItem>
+  <ECUSettingsItem name="RateOfChange 1 Alpha">0</ECUSettingsItem>
   <ECUSettingsItem name="RateOfChange 2 Alpha">88</ECUSettingsItem>
   <ECUSettingsItem name="RateOfChange 3 Alpha">88</ECUSettingsItem>
   <ECUSettingsItem name="RateOfChange 4 Alpha">88</ECUSettingsItem>
-  <ECUSettingsItem name="RateOfChange 1 Scaling">0</ECUSettingsItem>
+  <ECUSettingsItem name="RateOfChange 1 Scaling">2</ECUSettingsItem>
   <ECUSettingsItem name="RateOfChange 2 Scaling">0</ECUSettingsItem>
   <ECUSettingsItem name="RateOfChange 3 Scaling">0</ECUSettingsItem>
   <ECUSettingsItem name="RateOfChange 4 Scaling">0</ECUSettingsItem>
@@ -2384,7 +2385,7 @@
   <ECUSettingsItem name="CAN ECU Keypad 1 KeySteps 5">0</ECUSettingsItem>
   <ECUSettingsItem name="CAN ECU Keypad 1 KeySteps 6">2</ECUSettingsItem>
   <ECUSettingsItem name="CAN ECU Keypad 1 KeySteps 7">2</ECUSettingsItem>
-  <ECUSettingsItem name="CAN ECU Keypad 1 KeySteps 8">101</ECUSettingsItem>
+  <ECUSettingsItem name="CAN ECU Keypad 1 KeySteps 8">1</ECUSettingsItem>
   <ECUSettingsItem name="CAN ECU Keypad 1 KeySteps 9">0</ECUSettingsItem>
   <ECUSettingsItem name="CAN ECU Keypad 1 KeySteps 10">0</ECUSettingsItem>
   <ECUSettingsItem name="CAN ECU Keypad 1 KeySteps 11">0</ECUSettingsItem>
@@ -2445,27 +2446,21 @@
   </DynamicTable>
   <DynamicTable name="KnockCtrl RetRange data" AxisPageMemAddr="2690" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="8" AxisDataSource="61" StepMode="False">1000,2000,3000,4000,5000,6000,7000,8000</DynamicTableAxis>
-    <DynamicTableAxis name="Y" AxisCellCount="8" AxisDataSource="20" StepMode="False">20,60,100,140,180,220,260,300</DynamicTableAxis>
+    <DynamicTableAxis name="Y" AxisCellCount="4" AxisDataSource="20" StepMode="False">20,60,100,140</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="8" YSize="8" DynamicMemoryAddress="2731">5,5,5,5,5,5,5,5
+    <DynamicTableData XSize="8" YSize="4" DynamicMemoryAddress="2723">5,5,5,5,5,5,5,5
 5,5,5,5,5,5,5,5
 5,5,5,5,5,5,5,5
-20,20,20,20,20,20,20,20
-25,25,25,25,25,25,25,25
-25,25,25,25,25,25,25,25
-25,25,25,25,25,25,25,25
-25,25,25,25,25,25,25,25</DynamicTableData>
+20,20,20,20,20,20,20,20</DynamicTableData>
   </DynamicTable>
-  <DynamicTable name="KnockCtrl AdvRate data" AxisPageMemAddr="2864" tableSettingsBits="0">
+  <DynamicTable name="KnockCtrl AdvRate data" AxisPageMemAddr="2792" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="8" AxisDataSource="61" StepMode="False">1000,2000,3000,4000,5000,6000,7000,8000</DynamicTableAxis>
-    <DynamicTableAxis name="Y" AxisCellCount="6" AxisDataSource="20" StepMode="False">20,60,100,140,180,220</DynamicTableAxis>
+    <DynamicTableAxis name="Y" AxisCellCount="4" AxisDataSource="20" StepMode="False">20,60,100,140</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="8" YSize="6" DynamicMemoryAddress="2901">0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01
+    <DynamicTableData XSize="8" YSize="4" DynamicMemoryAddress="2825">0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01
 0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01
 0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01
-0.01,0.011,0.013,0.014,0.016,0.017,0.019,0.02
-0.01,0.014,0.017,0.021,0.024,0.028,0.031,0.035
-0.01,0.016,0.021,0.027,0.033,0.039,0.044,0.05</DynamicTableData>
+0.01,0.011,0.013,0.014,0.016,0.017,0.019,0.02</DynamicTableData>
   </DynamicTable>
   <DynamicTable name="KnockCtrl Sens data" AxisPageMemAddr="3002" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="8" AxisDataSource="61" StepMode="False">1000,2000,3000,4000,5000,6000,7000,8000</DynamicTableAxis>
@@ -2490,11 +2485,11 @@
   <ECUSettingsItem name="USERAIN 1 VoltageSource">0</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 1 Scale">0</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 1 Pullup">0</ECUSettingsItem>
-  <ECUSettingsItem name="USERAIN 2 Class">150</ECUSettingsItem>
+  <ECUSettingsItem name="USERAIN 2 Class">0</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 2 Predef">1009</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 2 Table Voltage">0.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 2 Table Value">0,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000</ECUSettingsItem>
-  <ECUSettingsItem name="USERAIN 2 Name">Pressure sensor</ECUSettingsItem>
+  <ECUSettingsItem name="USERAIN 2 Name"></ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 2 Unit">kPa</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 2 Filter">255</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 2 Converter">3</ECUSettingsItem>
@@ -2502,33 +2497,33 @@
   <ECUSettingsItem name="USERAIN 2 VoltageSource">0</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 2 Scale">0</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 2 Pullup">0</ECUSettingsItem>
-  <ECUSettingsItem name="USERAIN 3 Class">115</ECUSettingsItem>
-  <ECUSettingsItem name="USERAIN 3 Predef">0</ECUSettingsItem>
-  <ECUSettingsItem name="USERAIN 3 Table Voltage">0.5,0.735,0.971,1.206,1.441,1.676,1.912,2.147,2.382,2.618,2.853,3.088,3.324,3.559,3.794,4.029,4.265,4.5</ECUSettingsItem>
-  <ECUSettingsItem name="USERAIN 3 Table Value">0,58.8,117.6,176.5,235.3,294.1,352.9,411.8,470.6,529.4,588.2,647.1,705.9,764.7,823.5,882.4,941.2,1000</ECUSettingsItem>
+  <ECUSettingsItem name="USERAIN 3 Class">150</ECUSettingsItem>
+  <ECUSettingsItem name="USERAIN 3 Predef">1009</ECUSettingsItem>
+  <ECUSettingsItem name="USERAIN 3 Table Voltage">0.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5</ECUSettingsItem>
+  <ECUSettingsItem name="USERAIN 3 Table Value">0,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 3 Name">Pressure sensor</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 3 Unit">kPa</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 3 Filter">255</ECUSettingsItem>
-  <ECUSettingsItem name="USERAIN 3 Converter">2</ECUSettingsItem>
+  <ECUSettingsItem name="USERAIN 3 Converter">3</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 3 Offset">0</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 3 VoltageSource">0</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 3 Scale">0</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 3 Pullup">0</ECUSettingsItem>
-  <ECUSettingsItem name="USERAIN 4 Class">0</ECUSettingsItem>
-  <ECUSettingsItem name="USERAIN 4 Predef">0</ECUSettingsItem>
+  <ECUSettingsItem name="USERAIN 4 Class">115</ECUSettingsItem>
+  <ECUSettingsItem name="USERAIN 4 Predef">1009</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 4 Table Voltage">0.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5</ECUSettingsItem>
-  <ECUSettingsItem name="USERAIN 4 Table Value">-100,934,934,934,934,934,934,934,934,934,934,934,934,934,934,934,934,934</ECUSettingsItem>
-  <ECUSettingsItem name="USERAIN 4 Name"></ECUSettingsItem>
-  <ECUSettingsItem name="USERAIN 4 Unit"></ECUSettingsItem>
+  <ECUSettingsItem name="USERAIN 4 Table Value">0,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000</ECUSettingsItem>
+  <ECUSettingsItem name="USERAIN 4 Name">Pressure sensor</ECUSettingsItem>
+  <ECUSettingsItem name="USERAIN 4 Unit">kPa</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 4 Filter">255</ECUSettingsItem>
-  <ECUSettingsItem name="USERAIN 4 Converter">0</ECUSettingsItem>
+  <ECUSettingsItem name="USERAIN 4 Converter">3</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 4 Offset">0</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 4 VoltageSource">0</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 4 Scale">0</ECUSettingsItem>
   <ECUSettingsItem name="USERAIN 4 Pullup">0</ECUSettingsItem>
   <ECUSettingsItem name="VSS pulseperKM">1368</ECUSettingsItem>
   <ECUSettingsItem name="VSS gear enable">1</ECUSettingsItem>
-  <ECUSettingsItem name="VSS gearratio 1">21.7</ECUSettingsItem>
+  <ECUSettingsItem name="VSS gearratio 1">0</ECUSettingsItem>
   <ECUSettingsItem name="VSS gearratio 2">0</ECUSettingsItem>
   <ECUSettingsItem name="VSS gearratio 3">0</ECUSettingsItem>
   <ECUSettingsItem name="VSS gearratio 4">0</ECUSettingsItem>
@@ -3547,7 +3542,7 @@
 0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0</DynamicTableData>
   </DynamicTable>
-  <ECUSettingsItem name="Shiftcut Enable">1</ECUSettingsItem>
+  <ECUSettingsItem name="Shiftcut Enable">0</ECUSettingsItem>
   <ECUSettingsItem name="Shiftcut Mode">3</ECUSettingsItem>
   <ECUSettingsItem name="Shiftcut Output">0</ECUSettingsItem>
   <ECUSettingsItem name="Shiftcut cut above TPS">5</ECUSettingsItem>
@@ -3658,24 +3653,17 @@
 0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0</DynamicTableData>
   </DynamicTable>
-  <DynamicTable name="VVT Exhaust Target Table data" AxisPageMemAddr="6702" tableSettingsBits="0">
-    <DynamicTableAxis name="X" AxisCellCount="8" AxisDataSource="61" StepMode="False">1000,2000,3000,4000,5000,6000,7000,8000</DynamicTableAxis>
-    <DynamicTableAxis name="Y" AxisCellCount="8" AxisDataSource="20" StepMode="False">40,60,80,100,120,140,150.3,160</DynamicTableAxis>
+  <DynamicTable name="VVT Exhaust Target Table data" AxisPageMemAddr="6702" tableSettingsBits="8">
+    <DynamicTableAxis name="X" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
+    <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="8" YSize="8" DynamicMemoryAddress="6743">0,10,11.7,13.3,15,16.7,18.3,20
-0,10,11.7,13.3,15,16.7,18.3,20
-0,10,11.7,13.3,15,16.7,18.3,20
-5,7.7,10.4,13.1,15.9,18.6,21.3,24
-10,12,14,16,18,20,22,24
-15,18.5,22,21.3,20.7,20,19.8,19.5
-17.6,21.8,26.1,24.1,22,20,18.6,17.2
-20,25,30,26.7,23.3,20,17.5,15</DynamicTableData>
+    <DynamicTableData XSize="1" YSize="1" DynamicMemoryAddress="0">0</DynamicTableData>
   </DynamicTable>
-  <ECUSettingsItem name="VVT1 Enable">1</ECUSettingsItem>
+  <ECUSettingsItem name="VVT1 Enable">0</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 Predef">0</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 Ctrltype">2</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 Freq">100</ECUSettingsItem>
-  <ECUSettingsItem name="VVT1 Enable Testmode">1</ECUSettingsItem>
+  <ECUSettingsItem name="VVT1 Enable Testmode">0</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 Test duty">100</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 Test length">0.3</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 Min Duty">40</ECUSettingsItem>
@@ -3815,13 +3803,13 @@
   <ECUSettingsItem name="DBW TPS Main Voltage Open">4</ECUSettingsItem>
   <ECUSettingsItem name="DBW TPS Sub Voltage Closed">4</ECUSettingsItem>
   <ECUSettingsItem name="DBW TPS Sub Voltage Open">1</ECUSettingsItem>
-  <ECUSettingsItem name="DBW FPS Main Voltage Closed">0.672</ECUSettingsItem>
-  <ECUSettingsItem name="DBW FPS Main Voltage Open">3.414</ECUSettingsItem>
-  <ECUSettingsItem name="DBW FPS Sub Voltage Closed">0.658</ECUSettingsItem>
-  <ECUSettingsItem name="DBW FPS Sub Voltage Open">3.425</ECUSettingsItem>
-  <ECUSettingsItem name="DBW P Gain">40</ECUSettingsItem>
-  <ECUSettingsItem name="DBW I Gain">60</ECUSettingsItem>
-  <ECUSettingsItem name="DBW D Gain">100</ECUSettingsItem>
+  <ECUSettingsItem name="DBW FPS Main Voltage Closed">0.674</ECUSettingsItem>
+  <ECUSettingsItem name="DBW FPS Main Voltage Open">3.524</ECUSettingsItem>
+  <ECUSettingsItem name="DBW FPS Sub Voltage Closed">0.665</ECUSettingsItem>
+  <ECUSettingsItem name="DBW FPS Sub Voltage Open">3.602</ECUSettingsItem>
+  <ECUSettingsItem name="DBW P Gain">60</ECUSettingsItem>
+  <ECUSettingsItem name="DBW I Gain">80</ECUSettingsItem>
+  <ECUSettingsItem name="DBW D Gain">150</ECUSettingsItem>
   <ECUSettingsItem name="DBW Enable">1</ECUSettingsItem>
   <ECUSettingsItem name="DBW Deadband">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW Test Duty">32</ECUSettingsItem>
@@ -3830,7 +3818,7 @@
   <ECUSettingsItem name="DBW FF Max Duty">25</ECUSettingsItem>
   <ECUSettingsItem name="DBW FF Min Duty">-25</ECUSettingsItem>
   <ECUSettingsItem name="DBW FF Rest Pos">10</ECUSettingsItem>
-  <ECUSettingsItem name="DBW TPS Backup Type">3</ECUSettingsItem>
+  <ECUSettingsItem name="DBW TPS Backup Type">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW TPS Backup Allowed Error">10</ECUSettingsItem>
   <ECUSettingsItem name="DBW TPS Backup BackupTable Backpt">0,20,40,60,80,100</ECUSettingsItem>
   <ECUSettingsItem name="DBW TPS Backup BackupTable Mainpt">100,80,60,40,20,0</ECUSettingsItem>
@@ -3852,8 +3840,8 @@
 76.7,79,81.2,83.4,85.7,85.7,85.7,85.7
 100,100,100,100,100,100,100,100</DynamicTableData>
   </DynamicTable>
-  <ECUSettingsItem name="DBW Idle Min Pos">0</ECUSettingsItem>
-  <ECUSettingsItem name="DBW Idle Max Pos">6</ECUSettingsItem>
+  <ECUSettingsItem name="DBW Idle Min Pos">1</ECUSettingsItem>
+  <ECUSettingsItem name="DBW Idle Max Pos">10</ECUSettingsItem>
   <ECUSettingsItem name="DBW Neg damper">30</ECUSettingsItem>
   <ECUSettingsItem name="DBW Pos damper">30</ECUSettingsItem>
   <ECUSettingsItem name="DBW TPS Backup MainTable Backpt">0,20,40,60,80,100</ECUSettingsItem>
@@ -3876,18 +3864,18 @@
   <ECUSettingsItem name="DBW SpringComp CorrPt">-22,-14,0,14,18,23</ECUSettingsItem>
   <ECUSettingsItem name="DBW FF Mode">1</ECUSettingsItem>
   <ECUSettingsItem name="DBW DualPID Mode">0</ECUSettingsItem>
-  <ECUSettingsItem name="DBW IntegralLimiter Mode">1</ECUSettingsItem>
+  <ECUSettingsItem name="DBW IntegralLimiter Mode">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW IntegralLimiter ErrorPt">0,8,16,24,32,40</ECUSettingsItem>
   <ECUSettingsItem name="DBW IntegralLimiter LimitPt">40,20,17.5,15,12.5,10</ECUSettingsItem>
   <ECUSettingsItem name="DBW PedalFilter Enable">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW PedalFilter Alpha">87</ECUSettingsItem>
   <ECUSettingsItem name="DBW DualPID SwitchAtRest">0</ECUSettingsItem>
-  <ECUSettingsItem name="DBW FPS Backup MainTable Backpt">0,20.1,42.4,62.3,81,100</ECUSettingsItem>
-  <ECUSettingsItem name="DBW FPS Backup MainTable Mainpt">0,21.5,43.5,63.1,81.4,100</ECUSettingsItem>
+  <ECUSettingsItem name="DBW FPS Backup MainTable Backpt">0,23.4,41.4,60.4,80.7,100</ECUSettingsItem>
+  <ECUSettingsItem name="DBW FPS Backup MainTable Mainpt">0,23.3,41.2,60.4,80.6,100</ECUSettingsItem>
   <ECUSettingsItem name="DBW PID Multiply">1</ECUSettingsItem>
   <ECUSettingsItem name="DBW PID Predef">30017</ECUSettingsItem>
   <ECUSettingsItem name="DBW Target Use Secondary Table">0</ECUSettingsItem>
-  <ECUSettingsItem name="DBW Target Apply Idle">0</ECUSettingsItem>
+  <ECUSettingsItem name="DBW Target Apply Idle">1</ECUSettingsItem>
   <DynamicTable name="DBW Target2 Table data" AxisPageMemAddr="7810" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="4" AxisDataSource="61" StepMode="False">0,2667,5333,8000</DynamicTableAxis>
     <DynamicTableAxis name="Y" AxisCellCount="4" AxisDataSource="206" StepMode="False">0,33.3,66.7,100</DynamicTableAxis>
@@ -4206,7 +4194,7 @@
   <ECUSettingsItem name="Wheelspeed 1 PulseDiv">0</ECUSettingsItem>
   <ECUSettingsItem name="Wheelspeed 2 Filter">1</ECUSettingsItem>
   <ECUSettingsItem name="Wheelspeed 2 Teethcount">4</ECUSettingsItem>
-  <ECUSettingsItem name="Wheelspeed 2 Cirumference">2100</ECUSettingsItem>
+  <ECUSettingsItem name="Wheelspeed 2 Cirumference">0</ECUSettingsItem>
   <ECUSettingsItem name="Wheelspeed 2 Rate">1</ECUSettingsItem>
   <ECUSettingsItem name="Wheelspeed 2 SmoothAlpha">85</ECUSettingsItem>
   <ECUSettingsItem name="Wheelspeed 2 MaxFreq">10000</ECUSettingsItem>
@@ -4220,7 +4208,7 @@
   <ECUSettingsItem name="Wheelspeed 3 PulseDiv">0</ECUSettingsItem>
   <ECUSettingsItem name="Wheelspeed 4 Filter">1</ECUSettingsItem>
   <ECUSettingsItem name="Wheelspeed 4 Teethcount">4</ECUSettingsItem>
-  <ECUSettingsItem name="Wheelspeed 4 Cirumference">2100</ECUSettingsItem>
+  <ECUSettingsItem name="Wheelspeed 4 Cirumference">0</ECUSettingsItem>
   <ECUSettingsItem name="Wheelspeed 4 Rate">1</ECUSettingsItem>
   <ECUSettingsItem name="Wheelspeed 4 SmoothAlpha">85</ECUSettingsItem>
   <ECUSettingsItem name="Wheelspeed 4 MaxFreq">10000</ECUSettingsItem>
@@ -4445,6 +4433,7 @@
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableData XSize="1" YSize="1" DynamicMemoryAddress="9113">0.2</DynamicTableData>
   </DynamicTable>
+  <ECUSettingsItem name="TransCtrl TCC Brake Disable">0</ECUSettingsItem>
   <ECUSettingsItem name="Shift 1 Dn TPS">0,27,50,64,82,100</ECUSettingsItem>
   <ECUSettingsItem name="Shift 1 Dn Speed">7.2,25,35,46,60,78.4</ECUSettingsItem>
   <ECUSettingsItem name="Shift 1 Up TPS">0,15.2,38.2,57,82.1,100</ECUSettingsItem>
@@ -4538,6 +4527,7 @@
   <ECUSettingsItem name="ClosedBoost Max Duty">100</ECUSettingsItem>
   <ECUSettingsItem name="ClosedBoost Activation MAP">110</ECUSettingsItem>
   <ECUSettingsItem name="ClosedBoost Activation MAP Mode">0</ECUSettingsItem>
+  <ECUSettingsItem name="ClosedBoost Ramp Direction">0</ECUSettingsItem>
   <DynamicTable name="ClosedBoost Target1 Table data" AxisPageMemAddr="9334" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="4" AxisDataSource="61" StepMode="False">3000,4667,6333,8000</DynamicTableAxis>
     <DynamicTableAxis name="Y" AxisCellCount="5" AxisDataSource="19" StepMode="False">0,25,50,75,100</DynamicTableAxis>
@@ -5786,7 +5776,7 @@
   <ECUSettingsItem name="CANInVal 12 OBD2 IDOffset">0</ECUSettingsItem>
   <ECUSettingsItem name="CANInVal 12 OBD2 Rate">255</ECUSettingsItem>
   <ECUSettingsItem name="CANInVal 12 Mask">0</ECUSettingsItem>
-  <ECUSettingsItem name="Math 1 Function">255</ECUSettingsItem>
+  <ECUSettingsItem name="Math 1 Function">4</ECUSettingsItem>
   <ECUSettingsItem name="Math 1 TextName"></ECUSettingsItem>
   <ECUSettingsItem name="Math 1 TextUnit"></ECUSettingsItem>
   <ECUSettingsItem name="Math 1 Var 1">310</ECUSettingsItem>
@@ -5796,7 +5786,7 @@
   <ECUSettingsItem name="Math 1 Var 5">492</ECUSettingsItem>
   <ECUSettingsItem name="Math 1 Scale">0</ECUSettingsItem>
   <ECUSettingsItem name="Math 1 Smoothing">0</ECUSettingsItem>
-  <ECUSettingsItem name="Math 1 VarType 1">0</ECUSettingsItem>
+  <ECUSettingsItem name="Math 1 VarType 1">1</ECUSettingsItem>
   <ECUSettingsItem name="Math 1 VarType 2">0</ECUSettingsItem>
   <ECUSettingsItem name="Math 1 VarType 3">0</ECUSettingsItem>
   <ECUSettingsItem name="Math 1 VarType 4">0</ECUSettingsItem>
@@ -6362,13 +6352,13 @@
     <DynamicTableAxis name="X" AxisCellCount="8" AxisDataSource="18" StepMode="False">-30,-10,0,15,30,50,70,90</DynamicTableAxis>
     <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="8" YSize="1" DynamicMemoryAddress="11265">90,90,80,70,60,45,25,22</DynamicTableData>
+    <DynamicTableData XSize="8" YSize="1" DynamicMemoryAddress="11265">90,84,82,80,79,74,68,60</DynamicTableData>
   </DynamicTable>
   <DynamicTable name="Idle ClosedloopTargetTable data" AxisPageMemAddr="11286" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="8" AxisDataSource="18" StepMode="False">-30,-10,0,15,30,50,70,90</DynamicTableAxis>
     <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="8" YSize="1" DynamicMemoryAddress="11313">1200,1200,1200,1100,1100,1000,1000,1000</DynamicTableData>
+    <DynamicTableData XSize="8" YSize="1" DynamicMemoryAddress="11313">1500,1400,1350,1300,1250,1200,1050,1050</DynamicTableData>
   </DynamicTable>
   <DynamicTable name="BoostLimiter Table data" AxisPageMemAddr="11334" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="5" AxisDataSource="61" StepMode="False">1000,2750,4500,6250,8000</DynamicTableAxis>
@@ -6411,11 +6401,11 @@
 1.1,1.1,1.1,1.1,1.1
 1.1,1.1,1.1,1.1,1.1</DynamicTableData>
   </DynamicTable>
-  <ECUSettingsItem name="Counter1 Mode">0</ECUSettingsItem>
-  <ECUSettingsItem name="Counter1 Save">0</ECUSettingsItem>
+  <ECUSettingsItem name="Counter1 Mode">1</ECUSettingsItem>
+  <ECUSettingsItem name="Counter1 Save">1</ECUSettingsItem>
   <ECUSettingsItem name="Counter1 MinVal">0</ECUSettingsItem>
-  <ECUSettingsItem name="Counter1 MaxVal">100</ECUSettingsItem>
-  <ECUSettingsItem name="Counter1 TextName"></ECUSettingsItem>
+  <ECUSettingsItem name="Counter1 MaxVal">15</ECUSettingsItem>
+  <ECUSettingsItem name="Counter1 TextName">BCM_1</ECUSettingsItem>
   <ECUSettingsItem name="Counter2 Mode">0</ECUSettingsItem>
   <ECUSettingsItem name="Counter2 Save">0</ECUSettingsItem>
   <ECUSettingsItem name="Counter2 MinVal">0</ECUSettingsItem>
@@ -6448,39 +6438,39 @@
   <ECUSettingsItem name="ECU Lock Dealer"></ECUSettingsItem>
   <ECUSettingsItem name="ECU Lock Bits">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</ECUSettingsItem>
   <ECUSettingsItem name="ECU Lock Set">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 1 Enable">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 1 Enable">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 Bus">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 1 MsgID">123</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 1 MsgID">338</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 MsgIDType">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 1 Rate">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 1 Rate">2</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 ByteOrder">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 1 ValueCount">1</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 1 1 ValueType">3</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 1 2 ValueType">3</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 1 3 ValueType">3</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 1 4 ValueType">3</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 1 ValueCount">4</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 1 1 ValueType">11</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 1 2 ValueType">1</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 1 3 ValueType">14</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 1 4 ValueType">13</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 5 ValueType">3</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 6 ValueType">3</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 1 1 FixedValue">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 1 1 FixedValue">240</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 2 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 3 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 4 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 5 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 6 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 1 ValSrcIndex">61</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 1 2 ValSrcIndex">61</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 1 2 ValSrcIndex">389</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 3 ValSrcIndex">61</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 4 ValSrcIndex">61</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 5 ValSrcIndex">61</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 6 ValSrcIndex">61</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 1 ValOffset">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 1 2 ValOffset">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 1 2 ValOffset">4</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 3 ValOffset">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 4 ValOffset">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 5 ValOffset">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 6 ValOffset">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 1 ValMult">1</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 1 2 ValMult">1</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 1 2 ValMult">16</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 3 ValMult">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 4 ValMult">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 5 ValMult">1</ECUSettingsItem>
@@ -6504,22 +6494,22 @@
   <ECUSettingsItem name="CANOutVal 1 7 ValDiv">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 8 ValDiv">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 1 TriggerVar">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 2 Enable">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 2 Enable">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 2 Bus">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 2 MsgID">123</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 2 MsgID">884</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 2 MsgIDType">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 2 Rate">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 2 Rate">5</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 2 ByteOrder">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 2 ValueCount">1</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 2 1 ValueType">3</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 2 2 ValueType">3</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 2 3 ValueType">3</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 2 4 ValueType">3</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 2 ValueCount">4</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 2 1 ValueType">13</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 2 2 ValueType">11</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 2 3 ValueType">11</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 2 4 ValueType">15</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 2 5 ValueType">3</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 2 6 ValueType">3</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 2 1 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 2 2 FixedValue">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 2 3 FixedValue">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 2 3 FixedValue">2</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 2 4 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 2 5 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 2 6 FixedValue">0</ECUSettingsItem>
@@ -6560,23 +6550,23 @@
   <ECUSettingsItem name="CANOutVal 2 7 ValDiv">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 2 8 ValDiv">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 2 TriggerVar">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 3 Enable">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 3 Enable">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 Bus">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 3 MsgID">123</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 3 MsgID">885</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 MsgIDType">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 3 Rate">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 3 Rate">5</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 ByteOrder">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 3 ValueCount">1</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 3 1 ValueType">3</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 3 2 ValueType">3</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 3 3 ValueType">3</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 3 4 ValueType">3</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 3 5 ValueType">3</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 3 6 ValueType">3</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 3 ValueCount">7</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 3 1 ValueType">10</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 3 2 ValueType">10</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 3 3 ValueType">11</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 3 4 ValueType">11</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 3 5 ValueType">11</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 3 6 ValueType">11</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 1 FixedValue">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 3 2 FixedValue">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 3 2 FixedValue">2</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 3 FixedValue">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 3 4 FixedValue">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 3 4 FixedValue">4</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 5 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 6 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 1 ValSrcIndex">61</ECUSettingsItem>
@@ -6603,9 +6593,9 @@
   <ECUSettingsItem name="CANOutVal 3 4 ValDiv">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 5 ValDiv">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 6 ValDiv">1</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 3 7 ValueType">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 3 7 ValueType">10</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 8 ValueType">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 3 7 FixedValue">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 3 7 FixedValue">16</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 8 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 7 ValSrcIndex">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 8 ValSrcIndex">0</ECUSettingsItem>
@@ -7009,55 +6999,55 @@
   <ECUSettingsItem name="CANOutVal 10 8 ValDiv">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 10 TriggerVar">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 1 Bus">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 1 MsgID">1</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 1 MsgID">1872</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 1 MsgIDType">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 1 Rate">255</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 1 Length">8</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 1 Data 1">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 1 Data 2">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 1 Data 3">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 1 Data 4">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 1 Data 1">233</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 1 Data 2">4</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 1 Data 3">48</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 1 Data 4">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 1 Data 5">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 1 Data 6">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 1 Data 6">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 1 Data 7">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 1 Data 8">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 2 Bus">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 2 MsgID">2</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 2 MsgID">1872</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 2 MsgIDType">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 2 Rate">255</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 2 Length">1</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 2 Data 1">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 2 Data 2">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 2 Data 3">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 2 Data 4">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 2 Length">8</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 2 Data 1">233</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 2 Data 2">4</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 2 Data 3">48</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 2 Data 4">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 2 Data 5">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 2 Data 6">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 2 Data 6">32</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 2 Data 7">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 2 Data 8">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 3 Bus">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 3 MsgID">3</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 3 MsgID">1872</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 3 MsgIDType">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 3 Rate">255</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 3 Length">1</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 3 Data 1">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 3 Data 2">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 3 Data 3">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 3 Data 4">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 3 Length">8</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 3 Data 1">233</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 3 Data 2">4</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 3 Data 3">48</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 3 Data 4">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 3 Data 5">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 3 Data 6">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 3 Data 6">96</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 3 Data 7">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 3 Data 8">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 4 Bus">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 4 MsgID">4</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 4 MsgID">1872</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 4 MsgIDType">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 4 Rate">255</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 4 Length">1</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 4 Data 1">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 4 Data 2">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 4 Data 3">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 4 Data 4">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 4 Length">8</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 4 Data 1">233</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 4 Data 2">4</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 4 Data 3">48</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 4 Data 4">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 4 Data 5">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutTest 4 Data 6">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutTest 4 Data 6">112</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 4 Data 7">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutTest 4 Data 8">0</ECUSettingsItem>
   <DynamicTable name="TrqMgm Target Table data" AxisPageMemAddr="11696" tableSettingsBits="0">
@@ -7380,11 +7370,11 @@
   <ECUSettingsItem name="BTSwitch 2 Pinfunc">255</ECUSettingsItem>
   <ECUSettingsItem name="BTSwitch 3 Pinfunc">255</ECUSettingsItem>
   <ECUSettingsItem name="BTSwitch 4 Pinfunc">255</ECUSettingsItem>
-  <DynamicTable name="AccEnrichment Corr2 Table data" AxisPageMemAddr="12966" tableSettingsBits="0">
+  <DynamicTable name="AccEnrichment Corr2 Table data" AxisPageMemAddr="12966" tableSettingsBits="8">
     <DynamicTableAxis name="X" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="1" YSize="1" DynamicMemoryAddress="12979">0</DynamicTableData>
+    <DynamicTableData XSize="1" YSize="1" DynamicMemoryAddress="0">0</DynamicTableData>
   </DynamicTable>
   <DynamicTable name="ShiftCut Drop Fuel Table data" AxisPageMemAddr="12986" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
@@ -7524,11 +7514,11 @@
   <ECUSettingsItem name="Voltage Filter">0</ECUSettingsItem>
   <ECUSettingsItem name="Voltage Cut Enable">18</ECUSettingsItem>
   <ECUSettingsItem name="TPS AIN 1 Class">100</ECUSettingsItem>
-  <ECUSettingsItem name="TPS AIN 1 Predef">0</ECUSettingsItem>
-  <ECUSettingsItem name="TPS AIN 1 Table Voltage">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</ECUSettingsItem>
-  <ECUSettingsItem name="TPS AIN 1 Table Value">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</ECUSettingsItem>
-  <ECUSettingsItem name="TPS AIN 1 Name"></ECUSettingsItem>
-  <ECUSettingsItem name="TPS AIN 1 Unit"></ECUSettingsItem>
+  <ECUSettingsItem name="TPS AIN 1 Predef">130</ECUSettingsItem>
+  <ECUSettingsItem name="TPS AIN 1 Table Voltage">0.32,4.79,4.79,4.79,4.79,4.79,4.79,4.79,4.79,4.79,4.79,4.79,4.79,4.79,4.79,4.79,4.79,4.79</ECUSettingsItem>
+  <ECUSettingsItem name="TPS AIN 1 Table Value">11.7,176.8,176.8,176.8,176.8,176.8,176.8,176.8,176.8,176.8,176.8,176.8,176.8,176.8,176.8,176.8,176.8,176.8</ECUSettingsItem>
+  <ECUSettingsItem name="TPS AIN 1 Name">Pressure sensor</ECUSettingsItem>
+  <ECUSettingsItem name="TPS AIN 1 Unit">kPa</ECUSettingsItem>
   <ECUSettingsItem name="TPS AIN 1 Filter">255</ECUSettingsItem>
   <ECUSettingsItem name="TPS AIN 1 Converter">2</ECUSettingsItem>
   <ECUSettingsItem name="TPS AIN 1 Offset">0</ECUSettingsItem>
@@ -7751,7 +7741,7 @@
   <ECUSettingsItem name="StarterCtrl Mode">1</ECUSettingsItem>
   <ECUSettingsItem name="StarterCtrl Interlock">0</ECUSettingsItem>
   <ECUSettingsItem name="StarterCtrl MaxRPM">300</ECUSettingsItem>
-  <ECUSettingsItem name="StarterCtrl Timeout">4</ECUSettingsItem>
+  <ECUSettingsItem name="StarterCtrl Timeout">1</ECUSettingsItem>
   <DynamicTable name="MapFilter Custom Avg Table data" AxisPageMemAddr="14528" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="5" AxisDataSource="61" StepMode="False">0,2000,4000,6000,8000</DynamicTableAxis>
     <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
@@ -8060,7 +8050,7 @@
   <ECUSettingsItem name="UpShift Clutch From Neutral">0</ECUSettingsItem>
   <ECUSettingsItem name="CAN Keypad Protocol">0</ECUSettingsItem>
   <ECUSettingsItem name="CAN Keypad CANOpenID">21</ECUSettingsItem>
-  <ECUSettingsItem name="CAN Analyzer Enable">0</ECUSettingsItem>
+  <ECUSettingsItem name="CAN Analyzer Enable">3</ECUSettingsItem>
   <ECUSettingsItem name="Acc RotaionMode">0</ECUSettingsItem>
   <ECUSettingsItem name="Acc Quaternation X">0</ECUSettingsItem>
   <ECUSettingsItem name="Acc Quaternation Y">0</ECUSettingsItem>
@@ -8114,12 +8104,12 @@
   <ECUSettingsItem name="RollingLaunch Fuel Correction">0</ECUSettingsItem>
   <ECUSettingsItem name="InputShaftCalc Enable">1</ECUSettingsItem>
   <ECUSettingsItem name="InputShaftCalc GearCount">6</ECUSettingsItem>
-  <ECUSettingsItem name="InputShaftCalc Ratio 1">0</ECUSettingsItem>
-  <ECUSettingsItem name="InputShaftCalc Ratio 2">0</ECUSettingsItem>
-  <ECUSettingsItem name="InputShaftCalc Ratio 3">0</ECUSettingsItem>
-  <ECUSettingsItem name="InputShaftCalc Ratio 4">0</ECUSettingsItem>
-  <ECUSettingsItem name="InputShaftCalc Ratio 5">0</ECUSettingsItem>
-  <ECUSettingsItem name="InputShaftCalc Ratio 6">0</ECUSettingsItem>
+  <ECUSettingsItem name="InputShaftCalc Ratio 1">3.626</ECUSettingsItem>
+  <ECUSettingsItem name="InputShaftCalc Ratio 2">2.188</ECUSettingsItem>
+  <ECUSettingsItem name="InputShaftCalc Ratio 3">1.541</ECUSettingsItem>
+  <ECUSettingsItem name="InputShaftCalc Ratio 4">1.213</ECUSettingsItem>
+  <ECUSettingsItem name="InputShaftCalc Ratio 5">1</ECUSettingsItem>
+  <ECUSettingsItem name="InputShaftCalc Ratio 6">0.767</ECUSettingsItem>
   <ECUSettingsItem name="InputShaftCalc Ratio 7">0</ECUSettingsItem>
   <ECUSettingsItem name="InputShaftCalc Ratio 8">0</ECUSettingsItem>
   <ECUSettingsItem name="MemoryFullProblemIndicatior">204</ECUSettingsItem>
@@ -8612,9 +8602,9 @@
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableData XSize="1" YSize="1" DynamicMemoryAddress="14891">0</DynamicTableData>
   </DynamicTable>
-  <ECUSettingsItem name="CanOut Textname 1"></ECUSettingsItem>
-  <ECUSettingsItem name="CanOut Textname 2"></ECUSettingsItem>
-  <ECUSettingsItem name="CanOut Textname 3"></ECUSettingsItem>
+  <ECUSettingsItem name="CanOut Textname 1">BCM_1 IG1</ECUSettingsItem>
+  <ECUSettingsItem name="CanOut Textname 2">BCM_2</ECUSettingsItem>
+  <ECUSettingsItem name="CanOut Textname 3">BCM_3</ECUSettingsItem>
   <ECUSettingsItem name="CanOut Textname 4"></ECUSettingsItem>
   <ECUSettingsItem name="CanOut Textname 5"></ECUSettingsItem>
   <ECUSettingsItem name="CanOut Textname 6"></ECUSettingsItem>
@@ -8717,9 +8707,9 @@
   <ECUSettingsItem name="Starter Allow Stop">1</ECUSettingsItem>
   <ECUSettingsItem name="DownShift TriggerType">0</ECUSettingsItem>
   <ECUSettingsItem name="UpShift TriggerType">0</ECUSettingsItem>
-  <ECUSettingsItem name="LeanError Enable">0</ECUSettingsItem>
-  <ECUSettingsItem name="LeanError Threshold">0</ECUSettingsItem>
-  <ECUSettingsItem name="LeanError Delay">0</ECUSettingsItem>
+  <ECUSettingsItem name="LeanError Enable">1</ECUSettingsItem>
+  <ECUSettingsItem name="LeanError Threshold">0.05</ECUSettingsItem>
+  <ECUSettingsItem name="LeanError Delay">1</ECUSettingsItem>
   <ECUSettingsItem name="OilPressureCut Latch">0</ECUSettingsItem>
   <ECUSettingsItem name="IgnAccCorr Enable">0</ECUSettingsItem>
   <ECUSettingsItem name="IgnAccCorr Hold">4</ECUSettingsItem>
@@ -8841,6 +8831,8 @@
   <ECUSettingsItem name="CAN MaxxecuProt UserRate High">50</ECUSettingsItem>
   <ECUSettingsItem name="ACClutch Max RPM">8000</ECUSettingsItem>
   <ECUSettingsItem name="Radiatorfan PWM MaxDuty">100</ECUSettingsItem>
+  <ECUSettingsItem name="CAN1 Termination Enable">1</ECUSettingsItem>
+  <ECUSettingsItem name="CAN2 Termination Enable">1</ECUSettingsItem>
   <ECUSettingsItem name="MethInj FailMode">7</ECUSettingsItem>
   <ECUSettingsItem name="MethInj StartMAP">150</ECUSettingsItem>
   <ECUSettingsItem name="MethInj FuelCorr Enable">0</ECUSettingsItem>
@@ -8875,6 +8867,93 @@
   <ECUSettingsItem name="SpeedoMonitor 1 MaxRPM">100</ECUSettingsItem>
   <ECUSettingsItem name="SpeedoMonitor 2 MaxRPM">100</ECUSettingsItem>
   <ECUSettingsItem name="SpeedoMonitor 3 MaxRPM">100</ECUSettingsItem>
+  <ECUSettingsItem name="Dodge 8HP TCU type">1</ECUSettingsItem>
+  <ECUSettingsItem name="Dodge 8HP Shifter type">2</ECUSettingsItem>
+  <ECUSettingsItem name="Dodge 8HP Blip Delay">3</ECUSettingsItem>
+  <DynamicTable name="Dodge 8HP Torque Table data" AxisPageMemAddr="15576" tableSettingsBits="0">
+    <DynamicTableAxis name="X" AxisCellCount="5" AxisDataSource="61" StepMode="False">1000,2000,3000,4000,5000</DynamicTableAxis>
+    <DynamicTableAxis name="Y" AxisCellCount="7" AxisDataSource="19" StepMode="False">0,10,20,40,60,80,100</DynamicTableAxis>
+    <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="920" StepMode="False">0</DynamicTableAxis>
+    <DynamicTableData XSize="5" YSize="7" DynamicMemoryAddress="806">-50,-50,-50,-50,-50
+106,186,274,274,274
+261,403,598,598,598
+493,628,688,688,688
+594,640,712,712,712
+600,670,937,937,937
+600,700,1000,1200,1200</DynamicTableData>
+  </DynamicTable>
+  <DynamicTable name="Dodge 8HP Torque Adjust data" AxisPageMemAddr="15700" tableSettingsBits="0">
+    <DynamicTableAxis name="X" AxisCellCount="3" AxisDataSource="920" StepMode="False">1,2,3</DynamicTableAxis>
+    <DynamicTableAxis name="Y" AxisCellCount="4" AxisDataSource="19" StepMode="False">0,33.3,66.7,100</DynamicTableAxis>
+    <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
+    <DynamicTableData XSize="3" YSize="4" DynamicMemoryAddress="15723">100,85,100
+100,90,100
+100,95,100
+100,100,100</DynamicTableData>
+  </DynamicTable>
+  <ECUSettingsItem name="Dodge 8HP Shift Strategy">0</ECUSettingsItem>
+  <ECUSettingsItem name="Dodge 8HP TCU Mode Set Source">3</ECUSettingsItem>
+  <ECUSettingsItem name="Dodge 8HP KickDown Threshold">95</ECUSettingsItem>
+  <ECUSettingsItem name="Dodge 8HP Kickdown Lower Limit Gear">4</ECUSettingsItem>
+  <ECUSettingsItem name="Dodge 8HP TCU Diag">0</ECUSettingsItem>
+  <DynamicTable name="Dodge 8HP Shift Target Table data" AxisPageMemAddr="15752" tableSettingsBits="0">
+    <DynamicTableAxis name="X" AxisCellCount="4" AxisDataSource="904" StepMode="False">1,2,3,4</DynamicTableAxis>
+    <DynamicTableAxis name="Y" AxisCellCount="12" AxisDataSource="19" StepMode="False">8.8,17,25.2,33.3,41.5,49.7,57.9,66.1,74.3,82.4,90.6,98.8</DynamicTableAxis>
+    <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
+    <DynamicTableData XSize="4" YSize="12" DynamicMemoryAddress="15793">1500,1500,1500,1500
+2001,2001,2001,2001
+2503,2503,2503,2503
+2998,2998,2998,2998
+3499,3499,3499,3499
+4001,4001,4001,4001
+4502,4502,4502,4502
+5003,5003,5003,5003
+5505,5505,5505,5505
+6000,6000,6000,6000
+7500,7500,7500,7500
+9000,9000,9000,9000</DynamicTableData>
+  </DynamicTable>
+  <DynamicTable name="Dodge 8HP 2 Table data" AxisPageMemAddr="16050" tableSettingsBits="0">
+    <DynamicTableAxis name="X" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
+    <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
+    <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
+    <DynamicTableData XSize="1" YSize="1" DynamicMemoryAddress="16063">0</DynamicTableData>
+  </DynamicTable>
+  <DynamicTable name="Dodge 8HP 3 Table data" AxisPageMemAddr="16070" tableSettingsBits="0">
+    <DynamicTableAxis name="X" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
+    <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
+    <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
+    <DynamicTableData XSize="1" YSize="1" DynamicMemoryAddress="16083">0</DynamicTableData>
+  </DynamicTable>
+  <DynamicTable name="Dodge 8HP 4 Table data" AxisPageMemAddr="16090" tableSettingsBits="0">
+    <DynamicTableAxis name="X" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
+    <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
+    <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
+    <DynamicTableData XSize="1" YSize="1" DynamicMemoryAddress="16103">0</DynamicTableData>
+  </DynamicTable>
+  <ECUSettingsItem name="Flexfuel Avg Time">0</ECUSettingsItem>
+  <ECUSettingsItem name="Launch Stage 2 Use Table Enable">0</ECUSettingsItem>
+  <DynamicTable name="Launch Stage 2 RPM Table data" AxisPageMemAddr="881" tableSettingsBits="0">
+    <DynamicTableAxis name="X" AxisCellCount="5" AxisDataSource="503" StepMode="False">1,2,3,4,5</DynamicTableAxis>
+    <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
+    <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
+    <DynamicTableData XSize="5" YSize="1" DynamicMemoryAddress="1871">4000,4500,5000,5500,6000</DynamicTableData>
+  </DynamicTable>
+  <ECUSettingsItem name="Launch Stage 3 Use Table Enable">0</ECUSettingsItem>
+  <DynamicTable name="Launch Stage 3 RPM Table data" AxisPageMemAddr="3277" tableSettingsBits="0">
+    <DynamicTableAxis name="X" AxisCellCount="5" AxisDataSource="503" StepMode="False">1,2,3,4,5</DynamicTableAxis>
+    <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
+    <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
+    <DynamicTableData XSize="5" YSize="1" DynamicMemoryAddress="3298">4000,4500,5000,5500,6000</DynamicTableData>
+  </DynamicTable>
+  <ECUSettingsItem name="Odometer Offset">0</ECUSettingsItem>
+  <ECUSettingsItem name="Dodge 8HP Auto Erase TCU DTC">0</ECUSettingsItem>
+  <ECUSettingsItem name="Stepper 1 TextName"></ECUSettingsItem>
+  <ECUSettingsItem name="Stepper 2 TextName"></ECUSettingsItem>
+  <ECUSettingsItem name="EWP Off Below CLT">0</ECUSettingsItem>
+  <ECUSettingsItem name="EWP Off Below CLT engine off">0</ECUSettingsItem>
+  <ECUSettingsItem name="Dodge 8HP Transbrake Activation Mode">0</ECUSettingsItem>
+  <ECUSettingsItem name="Dodge 8HP Automatic Upshift Offset">0</ECUSettingsItem>
   <ECUSettingsItem name="BitBuild 1 Enable">0</ECUSettingsItem>
   <ECUSettingsItem name="BitBuild 1 Bit 0 Enable">0</ECUSettingsItem>
   <ECUSettingsItem name="BitBuild 1 Bit 1 Enable">0</ECUSettingsItem>
@@ -9001,11 +9080,11 @@
   <ECUSettingsItem name="Pulse 2 Autotracking VR">0</ECUSettingsItem>
   <ECUSettingsItem name="Pulse 2 Falling Voltage">0</ECUSettingsItem>
   <ECUSettingsItem name="Pulse 2 Rising Voltage">0</ECUSettingsItem>
-  <DynamicTable name="Pulse 2 Armvoltage Table data" AxisPageMemAddr="15574" tableSettingsBits="0">
+  <DynamicTable name="Pulse 2 Armvoltage Table data" AxisPageMemAddr="902" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="1" YSize="1" DynamicMemoryAddress="15587">0</DynamicTableData>
+    <DynamicTableData XSize="1" YSize="1" DynamicMemoryAddress="1357">0</DynamicTableData>
   </DynamicTable>
   <ECUSettingsItem name="Pulse 2 TextName"></ECUSettingsItem>
   <ECUSettingsItem name="Pulse 3 PinFunc">255</ECUSettingsItem>
@@ -9018,11 +9097,11 @@
   <ECUSettingsItem name="Pulse 3 Autotracking VR">0</ECUSettingsItem>
   <ECUSettingsItem name="Pulse 3 Falling Voltage">0</ECUSettingsItem>
   <ECUSettingsItem name="Pulse 3 Rising Voltage">0</ECUSettingsItem>
-  <DynamicTable name="Pulse 3 Armvoltage Table data" AxisPageMemAddr="15594" tableSettingsBits="0">
+  <DynamicTable name="Pulse 3 Armvoltage Table data" AxisPageMemAddr="3313" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="1" YSize="1" DynamicMemoryAddress="15607">0</DynamicTableData>
+    <DynamicTableData XSize="1" YSize="1" DynamicMemoryAddress="3326">0</DynamicTableData>
   </DynamicTable>
   <ECUSettingsItem name="Pulse 3 TextName"></ECUSettingsItem>
   <ECUSettingsItem name="Pulse 4 PinFunc">255</ECUSettingsItem>
@@ -9086,11 +9165,11 @@
   <ECUSettingsItem name="Pulse 7 Autotracking VR">0</ECUSettingsItem>
   <ECUSettingsItem name="Pulse 7 Falling Voltage">0</ECUSettingsItem>
   <ECUSettingsItem name="Pulse 7 Rising Voltage">0</ECUSettingsItem>
-  <DynamicTable name="Pulse 7 Armvoltage Table data" AxisPageMemAddr="15690" tableSettingsBits="0">
+  <DynamicTable name="Pulse 7 Armvoltage Table data" AxisPageMemAddr="3333" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="1" YSize="1" DynamicMemoryAddress="15703">0</DynamicTableData>
+    <DynamicTableData XSize="1" YSize="1" DynamicMemoryAddress="3346">0</DynamicTableData>
   </DynamicTable>
   <ECUSettingsItem name="Pulse 7 TextName"></ECUSettingsItem>
   <ECUSettingsItem name="Pulse 8 PinFunc">255</ECUSettingsItem>
@@ -9103,11 +9182,11 @@
   <ECUSettingsItem name="Pulse 8 Autotracking VR">0</ECUSettingsItem>
   <ECUSettingsItem name="Pulse 8 Falling Voltage">0</ECUSettingsItem>
   <ECUSettingsItem name="Pulse 8 Rising Voltage">0</ECUSettingsItem>
-  <DynamicTable name="Pulse 8 Armvoltage Table data" AxisPageMemAddr="15710" tableSettingsBits="0">
+  <DynamicTable name="Pulse 8 Armvoltage Table data" AxisPageMemAddr="3353" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="1" YSize="1" DynamicMemoryAddress="15723">0</DynamicTableData>
+    <DynamicTableData XSize="1" YSize="1" DynamicMemoryAddress="3366">0</DynamicTableData>
   </DynamicTable>
   <ECUSettingsItem name="Pulse 8 TextName"></ECUSettingsItem>
   <ECUSettingsItem name="CAN ECU Keypad 1 1 LED1 Enable">255</ECUSettingsItem>
@@ -9818,7 +9897,7 @@
   <ECUSettingsItem name="PDM1 PinFunction 4">10</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 PinFunction 5">10</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 PinFunction 6">10</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 PinFunction 7">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 PinFunction 7">5</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 PinFunction 8">1</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 PinFunction 9">1</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 PinFunction 10">10</ECUSettingsItem>
@@ -9830,7 +9909,7 @@
   <ECUSettingsItem name="PDM1 PinFunction 16">51</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 PinFunction 17">1</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 PinFunction 18">3</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 PinFunction 19">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 PinFunction 19">5</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 PinFunction 20">1</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 PinCurrent 1">15</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 PinCurrent 2">10</ECUSettingsItem>
@@ -10109,6 +10188,12 @@
   <ECUSettingsItem name="PDM1 Wipers PWM Freq">60</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 Wipers PWM Duty Low">30</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 Wipers PWM Duty High">80</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 Wipers Washer Wipe Mode">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 Wipers Washer Wipe Ondelay">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 Wipers Washer Wipe Offdelay">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 Wipers Washer PostWipe Mode">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 Wipers Washer PostWipe Delay">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 Wipers Washer PostWipe Runtime">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 1 In A ID">640</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 1 In A Op">2</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 1 In A Compare">3000</ECUSettingsItem>
@@ -10298,9 +10383,9 @@
   <ECUSettingsItem name="PDM1 GPO 7 In A Second Var ID">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 7 VDIN Func 2">255</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 7 Textname">Wiper ON</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 GPO 8 In A ID">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 GPO 8 In A ID">1274</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 8 In A Op">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 GPO 8 In A Compare">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 GPO 8 In A Compare">1</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 8 In B ID">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 8 In B Op">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 8 In B Compare">0</ECUSettingsItem>
@@ -10324,10 +10409,10 @@
   <ECUSettingsItem name="PDM1 GPO 8 In C Hysteresis">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 8 In A Second Var ID">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 8 VDIN Func 2">255</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 GPO 8 Textname"></ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 GPO 9 In A ID">640</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 GPO 9 In A Op">2</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 GPO 9 In A Compare">3000</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 GPO 8 Textname">Neutral</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 GPO 9 In A ID">1273</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 GPO 9 In A Op">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 GPO 9 In A Compare">1</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 9 In B ID">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 9 In B Op">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 9 In B Compare">0</ECUSettingsItem>
@@ -10351,10 +10436,10 @@
   <ECUSettingsItem name="PDM1 GPO 9 In C Hysteresis">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 9 In A Second Var ID">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 9 VDIN Func 2">255</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 GPO 9 Textname"></ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 GPO 10 In A ID">640</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 GPO 10 In A Op">2</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 GPO 10 In A Compare">3000</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 GPO 9 Textname">Reverse</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 GPO 10 In A ID">1271</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 GPO 10 In A Op">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 GPO 10 In A Compare">1</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 10 In B ID">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 10 In B Op">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 10 In B Compare">0</ECUSettingsItem>
@@ -10378,7 +10463,7 @@
   <ECUSettingsItem name="PDM1 GPO 10 In C Hysteresis">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 10 In A Second Var ID">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 10 VDIN Func 2">255</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 GPO 10 Textname"></ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 GPO 10 Textname">Brake engaged</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 11 In A ID">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 11 In A Op">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 GPO 11 In A Compare">0</ECUSettingsItem>
@@ -10543,8 +10628,8 @@
   <ECUSettingsItem name="PDM1 GPO 16 Textname"></ECUSettingsItem>
   <ECUSettingsItem name="PDM1 In TextName 1">Brake switch</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 In TextName 2">Clutch switch</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 In TextName 3">Neutral switch</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 In TextName 4">Reverse switch</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 In TextName 3">Reverse switch</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 In TextName 4">Neutral switch</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 In TextName 5">RH fuel level</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 In TextName 6">LH fuel level</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 In TextName 7">Wipers park</ECUSettingsItem>
@@ -10650,24 +10735,24 @@
   <ECUSettingsItem name="PDM1 OutputType 20">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 CANOutVal 1 Enable">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 CANOutVal 1 Bus">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 CANOutVal 1 MsgID">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 CANOutVal 1 MsgID">338</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 CANOutVal 1 MsgIDType">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 CANOutVal 1 Rate">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 CANOutVal 1 Rate">2</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 CANOutVal 1 ByteOrder">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 CANOutVal 1 ValueCount">1</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 CANOutVal 1 1 ValueType">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 CANOutVal 1 2 ValueType">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 CANOutVal 1 3 ValueType">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 CANOutVal 1 4 ValueType">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 CANOutVal 1 ValueCount">4</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 CANOutVal 1 1 ValueType">11</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 CANOutVal 1 2 ValueType">1</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 CANOutVal 1 3 ValueType">15</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 CANOutVal 1 4 ValueType">13</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 CANOutVal 1 5 ValueType">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 CANOutVal 1 6 ValueType">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 CANOutVal 1 1 FixedValue">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 CANOutVal 1 1 FixedValue">240</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 CANOutVal 1 2 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 CANOutVal 1 3 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 CANOutVal 1 4 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 CANOutVal 1 5 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 CANOutVal 1 6 FixedValue">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 CANOutVal 1 1 ValSrcIndex">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 CANOutVal 1 1 ValSrcIndex">1084</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 CANOutVal 1 2 ValSrcIndex">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 CANOutVal 1 3 ValSrcIndex">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 CANOutVal 1 4 ValSrcIndex">0</ECUSettingsItem>
@@ -11299,10 +11384,10 @@
   <ECUSettingsItem name="PDM1 BitBuild 1 Bit 1 Enable">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 BitBuild 1 Bit 2 Enable">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 BitBuild 1 Bit 3 Enable">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 BitBuild 1 Bit 4 Enable">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 BitBuild 1 Bit 5 Enable">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 BitBuild 1 Bit 6 Enable">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 BitBuild 1 Bit 7 Enable">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 BitBuild 1 Bit 4 Enable">1</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 BitBuild 1 Bit 5 Enable">1</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 BitBuild 1 Bit 6 Enable">1</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 BitBuild 1 Bit 7 Enable">1</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 BitBuild 1 Bit 0 ID">61</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 BitBuild 1 Bit 1 ID">61</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 BitBuild 1 Bit 2 ID">61</ECUSettingsItem>
@@ -11327,15 +11412,15 @@
   <ECUSettingsItem name="PDM1 BitBuild 1 Bit 5 Compare">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 BitBuild 1 Bit 6 Compare">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 BitBuild 1 Bit 7 Compare">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 BitBuild 2 Enable">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 BitBuild 2 Enable">1</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 BitBuild 2 Bit 0 Enable">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 BitBuild 2 Bit 1 Enable">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 BitBuild 2 Bit 2 Enable">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 BitBuild 2 Bit 2 Enable">1</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 BitBuild 2 Bit 3 Enable">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 BitBuild 2 Bit 4 Enable">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 BitBuild 2 Bit 5 Enable">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 BitBuild 2 Bit 6 Enable">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 BitBuild 2 Bit 7 Enable">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 BitBuild 2 Bit 4 Enable">2</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 BitBuild 2 Bit 5 Enable">2</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 BitBuild 2 Bit 6 Enable">2</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 BitBuild 2 Bit 7 Enable">2</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 BitBuild 2 Bit 0 ID">61</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 BitBuild 2 Bit 1 ID">61</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 BitBuild 2 Bit 2 ID">61</ECUSettingsItem>
