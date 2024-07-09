@@ -7,7 +7,7 @@
     <ECUFeatures>0</ECUFeatures>
     <ECUSerial>JZHVXI</ECUSerial>
     <EcuHWType>RACE</EcuHWType>
-    <Edittime>2024-07-06 00:14:12</Edittime>
+    <Edittime>2024-07-08 23:13:26</Edittime>
   </Fileinfo>
   <ECUSettingsItem name="IATSensor Input Voltage">4.66,4.491,4.241,3.897,3.471,2.986,2.483,2.019,1.594,1.249,0.962,0.743,0.573,0.444,0.349,0.273,0.217,0.172</ECUSettingsItem>
   <ECUSettingsItem name="IATSensor Output Temperature">-40,-30,-20,-10,0,10,20,30,40,50,60,70,80,90,100,110,120,130</ECUSettingsItem>
@@ -1145,21 +1145,21 @@
   <ECUSettingsItem name="GPO 20 In C Hysteresis">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 20 In A Second Var ID">389</ECUSettingsItem>
   <ECUSettingsItem name="GPO 20 VDIN Func 2">255</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 21 In A ID">0</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 21 In A ID">472</ECUSettingsItem>
   <ECUSettingsItem name="GPO 21 In A Op">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 21 In A Compare">0</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 21 In B ID">0</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 21 In B ID">472</ECUSettingsItem>
   <ECUSettingsItem name="GPO 21 In B Op">0</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 21 In B Compare">0</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 21 In C ID">0</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 21 In B Compare">200</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 21 In C ID">472</ECUSettingsItem>
   <ECUSettingsItem name="GPO 21 In C Op">0</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 21 In C Compare">0</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 21 Final Op">0</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 21 In C Compare">400</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 21 Final Op">31</ECUSettingsItem>
   <ECUSettingsItem name="GPO 21 On Delay">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 21 Off Delay">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 21 Output Invert">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 21 Output Blink">0</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 21 VDIN Func">255</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 21 VDIN Func">38</ECUSettingsItem>
   <ECUSettingsItem name="GPO 21 In A Hysteresis">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 21 In B Hysteresis">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 21 In C Hysteresis">0</ECUSettingsItem>
@@ -1560,7 +1560,7 @@
   <ECUSettingsItem name="GPO 18 Textname"></ECUSettingsItem>
   <ECUSettingsItem name="GPO 19 Textname"></ECUSettingsItem>
   <ECUSettingsItem name="GPO 20 Textname">BCM_1 Counter UP</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 21 Textname"></ECUSettingsItem>
+  <ECUSettingsItem name="GPO 21 Textname">ABS_4 Mock Counter</ECUSettingsItem>
   <ECUSettingsItem name="GPO 22 Textname"></ECUSettingsItem>
   <ECUSettingsItem name="GPO 23 Textname"></ECUSettingsItem>
   <ECUSettingsItem name="GPO 24 Textname"></ECUSettingsItem>
@@ -1848,7 +1848,7 @@
   <ECUSettingsItem name="GPO 18 In D ID">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 19 In D ID">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 20 In D ID">472</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 21 In D ID">0</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 21 In D ID">472</ECUSettingsItem>
   <ECUSettingsItem name="GPO 22 In D ID">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 1 In D Op">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 2 In D Op">0</ECUSettingsItem>
@@ -1892,7 +1892,7 @@
   <ECUSettingsItem name="GPO 18 In D Compare">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 19 In D Compare">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 20 In D Compare">600</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 21 In D Compare">0</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 21 In D Compare">600</ECUSettingsItem>
   <ECUSettingsItem name="GPO 22 In D Compare">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 1 In E ID">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 2 In E ID">0</ECUSettingsItem>
@@ -1914,7 +1914,7 @@
   <ECUSettingsItem name="GPO 18 In E ID">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 19 In E ID">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 20 In E ID">472</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 21 In E ID">0</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 21 In E ID">472</ECUSettingsItem>
   <ECUSettingsItem name="GPO 22 In E ID">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 1 In E Op">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 2 In E Op">0</ECUSettingsItem>
@@ -1958,7 +1958,7 @@
   <ECUSettingsItem name="GPO 18 In E Compare">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 19 In E Compare">0</ECUSettingsItem>
   <ECUSettingsItem name="GPO 20 In E Compare">800</ECUSettingsItem>
-  <ECUSettingsItem name="GPO 21 In E Compare">0</ECUSettingsItem>
+  <ECUSettingsItem name="GPO 21 In E Compare">800</ECUSettingsItem>
   <ECUSettingsItem name="GPO 22 In E Compare">0</ECUSettingsItem>
   <ECUSettingsItem name="Show DevSettings">1</ECUSettingsItem>
   <ECUSettingsItem name="EGT Cal Enable">0</ECUSettingsItem>
@@ -3659,17 +3659,17 @@
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
     <DynamicTableData XSize="1" YSize="1" DynamicMemoryAddress="0">0</DynamicTableData>
   </DynamicTable>
-  <ECUSettingsItem name="VVT1 Enable">0</ECUSettingsItem>
+  <ECUSettingsItem name="VVT1 Enable">1</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 Predef">0</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 Ctrltype">2</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 Freq">100</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 Enable Testmode">0</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 Test duty">100</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 Test length">0.3</ECUSettingsItem>
-  <ECUSettingsItem name="VVT1 Min Duty">40</ECUSettingsItem>
+  <ECUSettingsItem name="VVT1 Min Duty">0</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 Max Duty">100</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 Min Target Angle">0</ECUSettingsItem>
-  <ECUSettingsItem name="VVT1 Max Target Angle">35</ECUSettingsItem>
+  <ECUSettingsItem name="VVT1 Max Target Angle">40</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 P Gain">8</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 I Gain">10</ECUSettingsItem>
   <ECUSettingsItem name="VVT1 D Gain">5</ECUSettingsItem>
@@ -3807,13 +3807,13 @@
   <ECUSettingsItem name="DBW FPS Main Voltage Open">3.524</ECUSettingsItem>
   <ECUSettingsItem name="DBW FPS Sub Voltage Closed">0.665</ECUSettingsItem>
   <ECUSettingsItem name="DBW FPS Sub Voltage Open">3.602</ECUSettingsItem>
-  <ECUSettingsItem name="DBW P Gain">60</ECUSettingsItem>
-  <ECUSettingsItem name="DBW I Gain">80</ECUSettingsItem>
-  <ECUSettingsItem name="DBW D Gain">150</ECUSettingsItem>
+  <ECUSettingsItem name="DBW P Gain">80</ECUSettingsItem>
+  <ECUSettingsItem name="DBW I Gain">120</ECUSettingsItem>
+  <ECUSettingsItem name="DBW D Gain">120</ECUSettingsItem>
   <ECUSettingsItem name="DBW Enable">1</ECUSettingsItem>
   <ECUSettingsItem name="DBW Deadband">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW Test Duty">32</ECUSettingsItem>
-  <ECUSettingsItem name="DBW Hysteresis">1</ECUSettingsItem>
+  <ECUSettingsItem name="DBW Hysteresis">3</ECUSettingsItem>
   <ECUSettingsItem name="DBW FF Enable">1</ECUSettingsItem>
   <ECUSettingsItem name="DBW FF Max Duty">25</ECUSettingsItem>
   <ECUSettingsItem name="DBW FF Min Duty">-25</ECUSettingsItem>
@@ -3864,7 +3864,7 @@
   <ECUSettingsItem name="DBW SpringComp CorrPt">-22,-14,0,14,18,23</ECUSettingsItem>
   <ECUSettingsItem name="DBW FF Mode">1</ECUSettingsItem>
   <ECUSettingsItem name="DBW DualPID Mode">0</ECUSettingsItem>
-  <ECUSettingsItem name="DBW IntegralLimiter Mode">0</ECUSettingsItem>
+  <ECUSettingsItem name="DBW IntegralLimiter Mode">1</ECUSettingsItem>
   <ECUSettingsItem name="DBW IntegralLimiter ErrorPt">0,8,16,24,32,40</ECUSettingsItem>
   <ECUSettingsItem name="DBW IntegralLimiter LimitPt">40,20,17.5,15,12.5,10</ECUSettingsItem>
   <ECUSettingsItem name="DBW PedalFilter Enable">0</ECUSettingsItem>
@@ -3896,7 +3896,7 @@
   <ECUSettingsItem name="DBW FF AutoSetup">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW Pedal Enable Custom OutsideVoltage">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW Pedal OutsideVoltage">0</ECUSettingsItem>
-  <ECUSettingsItem name="DBW PWM Freq">1000</ECUSettingsItem>
+  <ECUSettingsItem name="DBW PWM Freq">3000</ECUSettingsItem>
   <ECUSettingsItem name="DBW PosLimit Type">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW PosLimit Neg">-40</ECUSettingsItem>
   <ECUSettingsItem name="DBW PosLimit Pos">40</ECUSettingsItem>
@@ -6406,11 +6406,11 @@
   <ECUSettingsItem name="Counter1 MinVal">0</ECUSettingsItem>
   <ECUSettingsItem name="Counter1 MaxVal">15</ECUSettingsItem>
   <ECUSettingsItem name="Counter1 TextName">BCM_1</ECUSettingsItem>
-  <ECUSettingsItem name="Counter2 Mode">0</ECUSettingsItem>
-  <ECUSettingsItem name="Counter2 Save">0</ECUSettingsItem>
+  <ECUSettingsItem name="Counter2 Mode">1</ECUSettingsItem>
+  <ECUSettingsItem name="Counter2 Save">1</ECUSettingsItem>
   <ECUSettingsItem name="Counter2 MinVal">0</ECUSettingsItem>
-  <ECUSettingsItem name="Counter2 MaxVal">100</ECUSettingsItem>
-  <ECUSettingsItem name="Counter2 TextName"></ECUSettingsItem>
+  <ECUSettingsItem name="Counter2 MaxVal">255</ECUSettingsItem>
+  <ECUSettingsItem name="Counter2 TextName">ABD_4 Mock</ECUSettingsItem>
   <ECUSettingsItem name="Counter3 Mode">0</ECUSettingsItem>
   <ECUSettingsItem name="Counter3 Save">0</ECUSettingsItem>
   <ECUSettingsItem name="Counter3 MinVal">0</ECUSettingsItem>
@@ -6509,7 +6509,7 @@
   <ECUSettingsItem name="CANOutVal 2 6 ValueType">3</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 2 1 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 2 2 FixedValue">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 2 3 FixedValue">2</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 2 3 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 2 4 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 2 5 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 2 6 FixedValue">0</ECUSettingsItem>
@@ -6564,9 +6564,9 @@
   <ECUSettingsItem name="CANOutVal 3 5 ValueType">11</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 6 ValueType">11</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 1 FixedValue">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 3 2 FixedValue">2</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 3 2 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 3 FixedValue">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 3 4 FixedValue">4</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 3 4 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 5 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 6 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 1 ValSrcIndex">61</ECUSettingsItem>
@@ -6595,7 +6595,7 @@
   <ECUSettingsItem name="CANOutVal 3 6 ValDiv">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 7 ValueType">10</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 8 ValueType">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 3 7 FixedValue">16</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 3 7 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 8 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 7 ValSrcIndex">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 8 ValSrcIndex">0</ECUSettingsItem>
@@ -6606,15 +6606,15 @@
   <ECUSettingsItem name="CANOutVal 3 7 ValDiv">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 8 ValDiv">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 3 TriggerVar">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 4 Enable">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 4 Enable">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 4 Bus">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 4 MsgID">123</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 4 MsgID">24</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 4 MsgIDType">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 4 Rate">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 4 Rate">3</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 4 ByteOrder">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 4 ValueCount">1</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 4 1 ValueType">3</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 4 2 ValueType">3</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 4 ValueCount">2</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 4 1 ValueType">15</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 4 2 ValueType">15</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 4 3 ValueType">3</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 4 4 ValueType">3</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 4 5 ValueType">3</ECUSettingsItem>
@@ -6662,17 +6662,17 @@
   <ECUSettingsItem name="CANOutVal 4 7 ValDiv">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 4 8 ValDiv">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 4 TriggerVar">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 5 Enable">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 5 Enable">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 5 Bus">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 5 MsgID">123</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 5 MsgID">209</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 5 MsgIDType">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 5 Rate">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 5 Rate">2</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 5 ByteOrder">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 5 ValueCount">1</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 5 1 ValueType">3</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 5 2 ValueType">3</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 5 3 ValueType">3</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 5 4 ValueType">3</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 5 ValueCount">4</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 5 1 ValueType">11</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 5 2 ValueType">11</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 5 3 ValueType">13</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 5 4 ValueType">15</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 5 5 ValueType">3</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 5 6 ValueType">3</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 5 1 FixedValue">0</ECUSettingsItem>
@@ -6718,17 +6718,17 @@
   <ECUSettingsItem name="CANOutVal 5 7 ValDiv">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 5 8 ValDiv">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 5 TriggerVar">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 6 Enable">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 6 Enable">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 6 Bus">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 6 MsgID">123</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 6 MsgID">211</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 6 MsgIDType">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 6 Rate">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 6 Rate">4</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 6 ByteOrder">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 6 ValueCount">1</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 6 1 ValueType">3</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 6 2 ValueType">3</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 6 3 ValueType">3</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 6 4 ValueType">3</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 6 ValueCount">4</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 6 1 ValueType">15</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 6 2 ValueType">13</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 6 3 ValueType">11</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 6 4 ValueType">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 6 5 ValueType">3</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 6 6 ValueType">3</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 6 1 FixedValue">0</ECUSettingsItem>
@@ -6738,9 +6738,9 @@
   <ECUSettingsItem name="CANOutVal 6 5 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 6 6 FixedValue">0</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 6 1 ValSrcIndex">61</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 6 2 ValSrcIndex">61</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 6 2 ValSrcIndex">390</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 6 3 ValSrcIndex">61</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 6 4 ValSrcIndex">61</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 6 4 ValSrcIndex">390</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 6 5 ValSrcIndex">61</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 6 6 ValSrcIndex">61</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 6 1 ValOffset">0</ECUSettingsItem>
@@ -6774,15 +6774,15 @@
   <ECUSettingsItem name="CANOutVal 6 7 ValDiv">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 6 8 ValDiv">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 6 TriggerVar">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 7 Enable">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 7 Enable">1</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 7 Bus">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 7 MsgID">123</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 7 MsgID">212</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 7 MsgIDType">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 7 Rate">0</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 7 Rate">2</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 7 ByteOrder">0</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 7 ValueCount">1</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 7 1 ValueType">3</ECUSettingsItem>
-  <ECUSettingsItem name="CANOutVal 7 2 ValueType">3</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 7 ValueCount">2</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 7 1 ValueType">15</ECUSettingsItem>
+  <ECUSettingsItem name="CANOutVal 7 2 ValueType">15</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 7 3 ValueType">3</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 7 4 ValueType">3</ECUSettingsItem>
   <ECUSettingsItem name="CANOutVal 7 5 ValueType">3</ECUSettingsItem>
@@ -7515,13 +7515,13 @@
   <ECUSettingsItem name="Voltage Cut Enable">18</ECUSettingsItem>
   <ECUSettingsItem name="TPS AIN 1 Class">100</ECUSettingsItem>
   <ECUSettingsItem name="TPS AIN 1 Predef">0</ECUSettingsItem>
-  <ECUSettingsItem name="TPS AIN 1 Table Voltage">0.5,0.753,1.006,1.259,1.512,1.765,2.018,2.271,2.524,2.776,3,3.282,3.535,3.788,4.041,4.294,4.547,4.8</ECUSettingsItem>
-  <ECUSettingsItem name="TPS AIN 1 Table Value">-182.7,-163.9,-145.1,-126.3,-107.4,-88.6,-69.8,-51,-32.2,-13.3,3.3,14.3,23.5,32.6,41.7,50.9,60,69.1</ECUSettingsItem>
+  <ECUSettingsItem name="TPS AIN 1 Table Voltage">0,0.5,1.5,2,2.5,3,3.5,4,4.8,4.8,4.8,4.8,4.8,4.8,4.8,4.8,4.8,4.8</ECUSettingsItem>
+  <ECUSettingsItem name="TPS AIN 1 Table Value">-999,-182.7,-101.4,-64.8,-27.6,4.1,24.1,37.9,69.6,999,999,999,999,999,999,999,999,999</ECUSettingsItem>
   <ECUSettingsItem name="TPS AIN 1 Name">MAP</ECUSettingsItem>
-  <ECUSettingsItem name="TPS AIN 1 Unit">kPa</ECUSettingsItem>
+  <ECUSettingsItem name="TPS AIN 1 Unit">?C</ECUSettingsItem>
   <ECUSettingsItem name="TPS AIN 1 Filter">255</ECUSettingsItem>
   <ECUSettingsItem name="TPS AIN 1 Converter">3</ECUSettingsItem>
-  <ECUSettingsItem name="TPS AIN 1 Offset">0</ECUSettingsItem>
+  <ECUSettingsItem name="TPS AIN 1 Offset">101.4</ECUSettingsItem>
   <ECUSettingsItem name="TPS AIN 1 VoltageSource">0</ECUSettingsItem>
   <ECUSettingsItem name="TPS AIN 1 Scale">0</ECUSettingsItem>
   <DynamicTable name="Cylinder Fuel Trim 1 Table data" AxisPageMemAddr="13470" tableSettingsBits="0">
@@ -8605,10 +8605,10 @@
   <ECUSettingsItem name="CanOut Textname 1">BCM_1 IG1</ECUSettingsItem>
   <ECUSettingsItem name="CanOut Textname 2">BCM_2</ECUSettingsItem>
   <ECUSettingsItem name="CanOut Textname 3">BCM_3</ECUSettingsItem>
-  <ECUSettingsItem name="CanOut Textname 4"></ECUSettingsItem>
-  <ECUSettingsItem name="CanOut Textname 5"></ECUSettingsItem>
-  <ECUSettingsItem name="CanOut Textname 6"></ECUSettingsItem>
-  <ECUSettingsItem name="CanOut Textname 7"></ECUSettingsItem>
+  <ECUSettingsItem name="CanOut Textname 4">STR_1 Mock</ECUSettingsItem>
+  <ECUSettingsItem name="CanOut Textname 5">ABS_2 Mock</ECUSettingsItem>
+  <ECUSettingsItem name="CanOut Textname 6">ABS_4 Mock</ECUSettingsItem>
+  <ECUSettingsItem name="CanOut Textname 7">ABS_5 Mock</ECUSettingsItem>
   <ECUSettingsItem name="CanOut Textname 8"></ECUSettingsItem>
   <ECUSettingsItem name="CanOut Textname 9"></ECUSettingsItem>
   <ECUSettingsItem name="CanOut Textname 10"></ECUSettingsItem>
