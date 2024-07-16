@@ -3,11 +3,11 @@
   <Fileinfo>
     <Softwareversion>1.150</Softwareversion>
     <ECUHWVersion>13</ECUHWVersion>
-    <ECUFWVersion>1.150</ECUFWVersion>
+    <ECUFWVersion>1.150.17522</ECUFWVersion>
     <ECUFeatures>0</ECUFeatures>
     <ECUSerial>JZHVXI</ECUSerial>
     <EcuHWType>RACE</EcuHWType>
-    <Edittime>2024-07-08 23:13:26</Edittime>
+    <Edittime>2024-07-16 23:10:22</Edittime>
   </Fileinfo>
   <ECUSettingsItem name="IATSensor Input Voltage">4.66,4.491,4.241,3.897,3.471,2.986,2.483,2.019,1.594,1.249,0.962,0.743,0.573,0.444,0.349,0.273,0.217,0.172</ECUSettingsItem>
   <ECUSettingsItem name="IATSensor Output Temperature">-40,-30,-20,-10,0,10,20,30,40,50,60,70,80,90,100,110,120,130</ECUSettingsItem>
@@ -416,7 +416,7 @@
   <ECUSettingsItem name="O2 Sensor Type">1</ECUSettingsItem>
   <ECUSettingsItem name="O2 Cal Mode">0</ECUSettingsItem>
   <ECUSettingsItem name="O2 Internal Gain CH2">100</ECUSettingsItem>
-  <ECUSettingsItem name="O2 Warmup Start">1</ECUSettingsItem>
+  <ECUSettingsItem name="O2 Warmup Start">0</ECUSettingsItem>
   <ECUSettingsItem name="O2Sensor Type 1">1</ECUSettingsItem>
   <ECUSettingsItem name="O2Sensor Type 2">1</ECUSettingsItem>
   <ECUSettingsItem name="O2Sensor Type 3">0</ECUSettingsItem>
@@ -2060,7 +2060,7 @@
   <ECUSettingsItem name="CANMOD PDM1 Output Func 15">10</ECUSettingsItem>
   <ECUSettingsItem name="CANMOD PDM1 Output Func 16">10</ECUSettingsItem>
   <ECUSettingsItem name="CANMOD PDM1 Output Func 17">10</ECUSettingsItem>
-  <ECUSettingsItem name="CANMOD PDM1 Output Func 18">10</ECUSettingsItem>
+  <ECUSettingsItem name="CANMOD PDM1 Output Func 18">96</ECUSettingsItem>
   <ECUSettingsItem name="CANMOD PDM1 Output Func 19">10</ECUSettingsItem>
   <ECUSettingsItem name="CANMOD PDM1 Output Func 20">10</ECUSettingsItem>
   <ECUSettingsItem name="MTune Search Value Index">61</ECUSettingsItem>
@@ -3799,21 +3799,21 @@
   <ECUSettingsItem name="DBW CANMOD Input 2 Class">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW CANMOD Input 3 Class">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW CANMOD Input 4 Class">0</ECUSettingsItem>
-  <ECUSettingsItem name="DBW TPS Main Voltage Closed">1</ECUSettingsItem>
-  <ECUSettingsItem name="DBW TPS Main Voltage Open">4</ECUSettingsItem>
-  <ECUSettingsItem name="DBW TPS Sub Voltage Closed">4</ECUSettingsItem>
-  <ECUSettingsItem name="DBW TPS Sub Voltage Open">1</ECUSettingsItem>
-  <ECUSettingsItem name="DBW FPS Main Voltage Closed">0.674</ECUSettingsItem>
-  <ECUSettingsItem name="DBW FPS Main Voltage Open">3.524</ECUSettingsItem>
-  <ECUSettingsItem name="DBW FPS Sub Voltage Closed">0.665</ECUSettingsItem>
-  <ECUSettingsItem name="DBW FPS Sub Voltage Open">3.602</ECUSettingsItem>
-  <ECUSettingsItem name="DBW P Gain">80</ECUSettingsItem>
-  <ECUSettingsItem name="DBW I Gain">120</ECUSettingsItem>
-  <ECUSettingsItem name="DBW D Gain">120</ECUSettingsItem>
+  <ECUSettingsItem name="DBW TPS Main Voltage Closed">0.81</ECUSettingsItem>
+  <ECUSettingsItem name="DBW TPS Main Voltage Open">4.667</ECUSettingsItem>
+  <ECUSettingsItem name="DBW TPS Sub Voltage Closed">4.144</ECUSettingsItem>
+  <ECUSettingsItem name="DBW TPS Sub Voltage Open">0.33</ECUSettingsItem>
+  <ECUSettingsItem name="DBW FPS Main Voltage Closed">0.683</ECUSettingsItem>
+  <ECUSettingsItem name="DBW FPS Main Voltage Open">3.508</ECUSettingsItem>
+  <ECUSettingsItem name="DBW FPS Sub Voltage Closed">0.673</ECUSettingsItem>
+  <ECUSettingsItem name="DBW FPS Sub Voltage Open">3.587</ECUSettingsItem>
+  <ECUSettingsItem name="DBW P Gain">40</ECUSettingsItem>
+  <ECUSettingsItem name="DBW I Gain">80</ECUSettingsItem>
+  <ECUSettingsItem name="DBW D Gain">150</ECUSettingsItem>
   <ECUSettingsItem name="DBW Enable">1</ECUSettingsItem>
   <ECUSettingsItem name="DBW Deadband">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW Test Duty">32</ECUSettingsItem>
-  <ECUSettingsItem name="DBW Hysteresis">3</ECUSettingsItem>
+  <ECUSettingsItem name="DBW Hysteresis">1</ECUSettingsItem>
   <ECUSettingsItem name="DBW FF Enable">1</ECUSettingsItem>
   <ECUSettingsItem name="DBW FF Max Duty">25</ECUSettingsItem>
   <ECUSettingsItem name="DBW FF Min Duty">-25</ECUSettingsItem>
@@ -3826,7 +3826,7 @@
   <ECUSettingsItem name="DBW FPS Backup Allowed Error">10</ECUSettingsItem>
   <ECUSettingsItem name="DBW FPS Backup BackupTable Backpt">0,20,40,60,80,100</ECUSettingsItem>
   <ECUSettingsItem name="DBW FPS Backup BackupTable Mainpt">100,80,60,40,20,0</ECUSettingsItem>
-  <ECUSettingsItem name="DBW Disable TPSFPS Errors">0</ECUSettingsItem>
+  <ECUSettingsItem name="DBW Disable TPSFPS Errors">1</ECUSettingsItem>
   <DynamicTable name="DBW PedalToThrottleTable Table data" AxisPageMemAddr="7636" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="8" AxisDataSource="61" StepMode="False">1000,2000,3000,4000,5000,6000,7000,8000</DynamicTableAxis>
     <DynamicTableAxis name="Y" AxisCellCount="8" AxisDataSource="206" StepMode="False">0,14.3,28.6,42.9,57.1,71.4,85.7,100</DynamicTableAxis>
@@ -3840,7 +3840,7 @@
 76.7,79,81.2,83.4,85.7,85.7,85.7,85.7
 100,100,100,100,100,100,100,100</DynamicTableData>
   </DynamicTable>
-  <ECUSettingsItem name="DBW Idle Min Pos">1</ECUSettingsItem>
+  <ECUSettingsItem name="DBW Idle Min Pos">2</ECUSettingsItem>
   <ECUSettingsItem name="DBW Idle Max Pos">10</ECUSettingsItem>
   <ECUSettingsItem name="DBW Neg damper">30</ECUSettingsItem>
   <ECUSettingsItem name="DBW Pos damper">30</ECUSettingsItem>
@@ -3853,7 +3853,7 @@
   <ECUSettingsItem name="DBW D GainLow">100</ECUSettingsItem>
   <ECUSettingsItem name="DBW ExtraAjd Multiply">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW ExtraAjd Add">0</ECUSettingsItem>
-  <ECUSettingsItem name="DBW Motor Enable">1</ECUSettingsItem>
+  <ECUSettingsItem name="DBW Motor Enable">2</ECUSettingsItem>
   <ECUSettingsItem name="DBW PID Speed">1</ECUSettingsItem>
   <ECUSettingsItem name="DBW TPS 2 Main Voltage Closed">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW TPS 2 Main Voltage Open">0</ECUSettingsItem>
@@ -3861,19 +3861,19 @@
   <ECUSettingsItem name="DBW TPS 2 Sub Voltage Open">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW 2 Enable">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW SpringComp TPSPt">0,4,6,10,50,100</ECUSettingsItem>
-  <ECUSettingsItem name="DBW SpringComp CorrPt">-22,-14,0,14,18,23</ECUSettingsItem>
+  <ECUSettingsItem name="DBW SpringComp CorrPt">-22,-14,0,20,22,25</ECUSettingsItem>
   <ECUSettingsItem name="DBW FF Mode">1</ECUSettingsItem>
   <ECUSettingsItem name="DBW DualPID Mode">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW IntegralLimiter Mode">1</ECUSettingsItem>
-  <ECUSettingsItem name="DBW IntegralLimiter ErrorPt">0,8,16,24,32,40</ECUSettingsItem>
-  <ECUSettingsItem name="DBW IntegralLimiter LimitPt">40,20,17.5,15,12.5,10</ECUSettingsItem>
+  <ECUSettingsItem name="DBW IntegralLimiter ErrorPt">0,10,20,30,40,50</ECUSettingsItem>
+  <ECUSettingsItem name="DBW IntegralLimiter LimitPt">40,34,28,22,16,10</ECUSettingsItem>
   <ECUSettingsItem name="DBW PedalFilter Enable">0</ECUSettingsItem>
-  <ECUSettingsItem name="DBW PedalFilter Alpha">87</ECUSettingsItem>
+  <ECUSettingsItem name="DBW PedalFilter Alpha">50</ECUSettingsItem>
   <ECUSettingsItem name="DBW DualPID SwitchAtRest">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW FPS Backup MainTable Backpt">0,23.4,41.4,60.4,80.7,100</ECUSettingsItem>
   <ECUSettingsItem name="DBW FPS Backup MainTable Mainpt">0,23.3,41.2,60.4,80.6,100</ECUSettingsItem>
   <ECUSettingsItem name="DBW PID Multiply">1</ECUSettingsItem>
-  <ECUSettingsItem name="DBW PID Predef">30017</ECUSettingsItem>
+  <ECUSettingsItem name="DBW PID Predef">30021</ECUSettingsItem>
   <ECUSettingsItem name="DBW Target Use Secondary Table">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW Target Apply Idle">1</ECUSettingsItem>
   <DynamicTable name="DBW Target2 Table data" AxisPageMemAddr="7810" tableSettingsBits="0">
@@ -7740,8 +7740,8 @@
   </DynamicTable>
   <ECUSettingsItem name="StarterCtrl Mode">1</ECUSettingsItem>
   <ECUSettingsItem name="StarterCtrl Interlock">0</ECUSettingsItem>
-  <ECUSettingsItem name="StarterCtrl MaxRPM">300</ECUSettingsItem>
-  <ECUSettingsItem name="StarterCtrl Timeout">1</ECUSettingsItem>
+  <ECUSettingsItem name="StarterCtrl MaxRPM">380</ECUSettingsItem>
+  <ECUSettingsItem name="StarterCtrl Timeout">3</ECUSettingsItem>
   <DynamicTable name="MapFilter Custom Avg Table data" AxisPageMemAddr="14528" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="5" AxisDataSource="61" StepMode="False">0,2000,4000,6000,8000</DynamicTableAxis>
     <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
@@ -9891,7 +9891,7 @@
   <ECUSettingsItem name="CAN ECU Keypad 2 15 LED2 ID">0</ECUSettingsItem>
   <ECUSettingsItem name="CAN ECU Keypad 2 15 LED2 Op">0</ECUSettingsItem>
   <ECUSettingsItem name="CAN ECU Keypad 2 15 LED2 Compare">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 PinFunction 1">10</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 PinFunction 1">3</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 PinFunction 2">1</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 PinFunction 3">13</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 PinFunction 4">10</ECUSettingsItem>
@@ -9908,7 +9908,7 @@
   <ECUSettingsItem name="PDM1 PinFunction 15">16</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 PinFunction 16">51</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 PinFunction 17">1</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 PinFunction 18">3</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 PinFunction 18">10</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 PinFunction 19">5</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 PinFunction 20">1</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 PinCurrent 1">15</ECUSettingsItem>
@@ -9929,7 +9929,7 @@
   <ECUSettingsItem name="PDM1 PinCurrent 16">10</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 PinCurrent 17">10</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 PinCurrent 18">10</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 PinCurrent 19">10</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 PinCurrent 19">12</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 PinCurrent 20">10</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 UndercurrentMode 1">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 UndercurrentMode 2">0</ECUSettingsItem>
@@ -9985,7 +9985,7 @@
   <ECUSettingsItem name="PDM1 DIN ActiveLevel 5">1</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 DIN ActiveLevel 6">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 DIN ActiveLevel 7">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 Out TextName 1">Starter</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 Out TextName 1">ECU</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 Out TextName 2">Coil Pwr</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 Out TextName 3">Headlights Lo</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 Out TextName 4">Wipers</ECUSettingsItem>
@@ -10002,7 +10002,7 @@
   <ECUSettingsItem name="PDM1 Out TextName 15">Stop Lights</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 Out TextName 16">Keypad/Dash</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 Out TextName 17">IG 1</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 Out TextName 18">ECU</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 Out TextName 18">Starter</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 Out TextName 19">IG 2</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 Out TextName 20">Injector Pwr</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 DIN PullUp 1">0</ECUSettingsItem>
@@ -10013,7 +10013,7 @@
   <ECUSettingsItem name="PDM1 DIN PullUp 6">1</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 DIN PullUp 7">1</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 5V Supply Mode">1</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 Auto Fault Reset">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 Auto Fault Reset">1</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 DIN Latch 1">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 DIN Latch 2">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 DIN Latch 3">0</ECUSettingsItem>
@@ -10693,7 +10693,7 @@
   <ECUSettingsItem name="PDM1 Out DefaultState 18">2</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 Out DefaultState 19">2</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 Out DefaultState 20">2</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 Out ForceOff 1">1</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 Out ForceOff 1">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 Out ForceOff 2">1</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 Out ForceOff 3">1</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 Out ForceOff 4">0</ECUSettingsItem>
@@ -10710,7 +10710,7 @@
   <ECUSettingsItem name="PDM1 Out ForceOff 15">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 Out ForceOff 16">0</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 Out ForceOff 17">0</ECUSettingsItem>
-  <ECUSettingsItem name="PDM1 Out ForceOff 18">0</ECUSettingsItem>
+  <ECUSettingsItem name="PDM1 Out ForceOff 18">1</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 Out ForceOff 19">1</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 Out ForceOff 20">1</ECUSettingsItem>
   <ECUSettingsItem name="PDM1 OutputType 1">0</ECUSettingsItem>
