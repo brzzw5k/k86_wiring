@@ -7,7 +7,7 @@
     <ECUFeatures>0</ECUFeatures>
     <ECUSerial>JZHVXI</ECUSerial>
     <EcuHWType>RACE</EcuHWType>
-    <Edittime>2024-07-16 23:10:22</Edittime>
+    <Edittime>2024-07-17 18:28:22</Edittime>
   </Fileinfo>
   <ECUSettingsItem name="IATSensor Input Voltage">4.66,4.491,4.241,3.897,3.471,2.986,2.483,2.019,1.594,1.249,0.962,0.743,0.573,0.444,0.349,0.273,0.217,0.172</ECUSettingsItem>
   <ECUSettingsItem name="IATSensor Output Temperature">-40,-30,-20,-10,0,10,20,30,40,50,60,70,80,90,100,110,120,130</ECUSettingsItem>
@@ -49,7 +49,7 @@
   <ECUSettingsItem name="Fan Ctrl Aftercool Time">300</ECUSettingsItem>
   <ECUSettingsItem name="Fan Ctrl Aftercool CLT">85</ECUSettingsItem>
   <ECUSettingsItem name="Fuel InjectorPredef">0</ECUSettingsItem>
-  <ECUSettingsItem name="Fuel pressureadj">3</ECUSettingsItem>
+  <ECUSettingsItem name="Fuel pressureadj">4</ECUSettingsItem>
   <ECUSettingsItem name="Fuel Injmethod">4</ECUSettingsItem>
   <ECUSettingsItem name="OverrunFuelCut IgnoreMAP">0</ECUSettingsItem>
   <ECUSettingsItem name="Fuel Injflow">310</ECUSettingsItem>
@@ -143,12 +143,12 @@
     <DynamicTableAxis name="X" AxisCellCount="17" AxisDataSource="61" StepMode="False">1000,1200,1600,2000,2500,3000,3500,4000,4500,5000,5500,6000,6500,7000,7500,8000,8500</DynamicTableAxis>
     <DynamicTableAxis name="Y" AxisCellCount="16" AxisDataSource="19" StepMode="False">0,1,2,4,7,9.5,12,18.5,25,35,50,60,70,80,90,100</DynamicTableAxis>
     <DynamicTableAxis name="Z" AxisCellCount="1" AxisDataSource="246" StepMode="False">0</DynamicTableAxis>
-    <DynamicTableData XSize="17" YSize="16" DynamicMemoryAddress="16125">25.5,25,21.6,17.4,13.7,11.2,12.8,15.4,15.4,17.8,17.2,14.8,14.6,11.6,9.6,2.8,0
-31.5,30.1,26.8,20.3,16.8,14,15.8,18.2,19.4,21.6,22.2,18.6,19.4,17.4,14.4,10.6,2.8
-32.8,33.4,29.8,23.8,21.9,22.4,22.8,21.2,21.4,23.4,23.4,22.6,22.4,20.4,17.6,12.8,6.2
-38.1,38.2,36.7,27,26.9,27.4,27.4,27.6,26.8,27.2,28,25.6,25,23.4,20.8,16.2,8.6
-41.8,42,41.3,29.4,31.8,33.3,33.4,34.2,34.1,34.4,34.6,34,34,32,28.6,24,17.4
-44,44,43.6,34.4,35,37.6,40,41.1,40.8,40.6,40.2,38.6,39.6,35.4,31.8,26.8,20.4
+    <DynamicTableData XSize="17" YSize="16" DynamicMemoryAddress="16125">38.6,38,33.9,28.9,24.4,11.2,12.8,15.4,15.4,17.8,17.2,14.8,14.6,11.6,9.6,2.8,0
+45.8,44.1,40.2,32.4,28.2,14,15.8,18.2,19.4,21.6,22.2,18.6,19.4,17.4,14.4,10.6,2.8
+47.4,48.1,43.8,36.6,34.3,22.4,22.8,21.2,21.4,23.4,23.4,22.6,22.4,20.4,17.6,12.8,6.2
+53.7,53.8,52,40.4,40.3,27.4,27.4,27.6,26.8,27.2,28,25.6,25,23.4,20.8,16.2,8.6
+58.2,58.4,57.6,43.3,46.2,33.3,33.4,34.2,34.1,34.4,34.6,34,34,32,28.6,24,17.4
+60.8,60.8,60.3,49.3,50,37.6,40,41.1,40.8,40.6,40.2,38.6,39.6,35.4,31.8,26.8,20.4
 46.2,46.1,46,38.4,39.2,41,43.6,47,48.4,47.9,46.7,46.1,43.3,40.7,37,31.7,26.4
 47.7,48.6,49,47.4,48.6,48.7,51,54.1,56.4,54.5,52.8,49.6,47.9,43.2,41.2,36.4,32
 52.2,52.2,53.1,54.4,60.4,58.4,56,58.5,63.5,58,56.9,54.4,51.4,48.3,44.5,40,34.6
@@ -190,7 +190,7 @@
   <ECUSettingsItem name="Home Pullup">1</ECUSettingsItem>
   <ECUSettingsItem name="Trigger Polarity">0</ECUSettingsItem>
   <ECUSettingsItem name="Home Polarity">0</ECUSettingsItem>
-  <ECUSettingsItem name="Inhibit Fuel">1</ECUSettingsItem>
+  <ECUSettingsItem name="Inhibit Fuel">0</ECUSettingsItem>
   <ECUSettingsItem name="Trigger MissingTooth StartWithoutCam">0</ECUSettingsItem>
   <ECUSettingsItem name="Trig voltage RPMPt">700,1600,4000,4000</ECUSettingsItem>
   <ECUSettingsItem name="Trig voltage TrigVoltagePt">0.2,0.4,2,2</ECUSettingsItem>
@@ -237,53 +237,53 @@
   <ECUSettingsItem name="Ign Delay">40</ECUSettingsItem>
   <ECUSettingsItem name="Ign Idle Max Retard">0</ECUSettingsItem>
   <ECUSettingsItem name="Ign Idle Max Advance">30</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH1">61</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH2">17</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH3">18</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH4">19</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH5">20</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH6">21</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH7">5</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH8">69</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH9">124</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH10">16</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH11">78</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH12">94</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH13">108</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH14">71</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH15">141</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH16">142</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH17">143</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH18">144</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH19">64</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH20">65</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH21">66</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH22">67</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH23">68</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH24">26</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH25">79</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH26">81</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH27">100</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH28">102</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH29">106</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH30">60</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH31">80</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH32">101</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH33">38</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH34">36</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH35">37</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH36">39</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH37">40</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH38">50</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH39">72</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH40">119</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH41">73</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH42">0</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH43">0</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH44">0</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH45">0</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH46">0</ECUSettingsItem>
-  <ECUSettingsItem name="LoggingV2 CH47">0</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH1">73</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH2">119</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH3">16</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH4">78</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH5">108</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH6">94</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH7">71</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH8">141</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH9">143</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH10">144</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH11">142</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH12">404</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH13">21</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH14">18</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH15">124</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH16">69</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH17">17</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH18">20</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH19">61</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH20">19</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH21">206</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH22">204</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH23">208</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH24">106</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH25">68</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH26">66</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH27">67</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH28">26</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH29">100</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH30">64</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH31">664</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH32">65</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH33">102</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH34">81</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH35">79</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH36">70</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH37">72</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH38">60</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH39">101</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH40">80</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH41">37</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH42">50</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH43">38</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH44">40</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH45">39</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH46">36</ECUSettingsItem>
+  <ECUSettingsItem name="LoggingV2 CH47">498</ECUSettingsItem>
   <ECUSettingsItem name="LoggingV2 CH48">0</ECUSettingsItem>
   <ECUSettingsItem name="LoggingV2 CH49">0</ECUSettingsItem>
   <ECUSettingsItem name="LoggingV2 CH50">0</ECUSettingsItem>
@@ -1967,7 +1967,7 @@
   <ECUSettingsItem name="Secondary Injectors Deadtime Type">0</ECUSettingsItem>
   <ECUSettingsItem name="Primary Injectors FuelPressure Source">0</ECUSettingsItem>
   <ECUSettingsItem name="Secondary Injectors FuelPressure Source">0</ECUSettingsItem>
-  <ECUSettingsItem name="Fuelpressure 1 Type">1</ECUSettingsItem>
+  <ECUSettingsItem name="Fuelpressure 1 Type">0</ECUSettingsItem>
   <ECUSettingsItem name="Fuelpressure 1 Offset">0</ECUSettingsItem>
   <ECUSettingsItem name="Fuelpressure 2 Type">1</ECUSettingsItem>
   <ECUSettingsItem name="Fuelpressure 2 Offset">0</ECUSettingsItem>
@@ -2025,7 +2025,7 @@
   <ECUSettingsItem name="PulseOut 2 Time">0</ECUSettingsItem>
   <ECUSettingsItem name="PulseOut 3 Time">0</ECUSettingsItem>
   <ECUSettingsItem name="PulseOut 4 Time">0</ECUSettingsItem>
-  <ECUSettingsItem name="Ign CrankAngle UseTable">1</ECUSettingsItem>
+  <ECUSettingsItem name="Ign CrankAngle UseTable">0</ECUSettingsItem>
   <DynamicTable name="Ign CrankAngle Table data" AxisPageMemAddr="107" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="3" AxisDataSource="18" StepMode="False">-40,110,120</DynamicTableAxis>
     <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
@@ -2064,7 +2064,7 @@
   <ECUSettingsItem name="CANMOD PDM1 Output Func 19">10</ECUSettingsItem>
   <ECUSettingsItem name="CANMOD PDM1 Output Func 20">10</ECUSettingsItem>
   <ECUSettingsItem name="MTune Search Value Index">61</ECUSettingsItem>
-  <ECUSettingsItem name="Fuelpressure 1 Target">0</ECUSettingsItem>
+  <ECUSettingsItem name="Fuelpressure 1 Target">400</ECUSettingsItem>
   <ECUSettingsItem name="Fuelpressure 2 Target">0</ECUSettingsItem>
   <ECUSettingsItem name="Revlimit DualMode Enable">0</ECUSettingsItem>
   <ECUSettingsItem name="Revlimit DualMode Type">0</ECUSettingsItem>
@@ -2941,7 +2941,7 @@
   <ECUSettingsItem name="Logging Enable">1</ECUSettingsItem>
   <ECUSettingsItem name="Logging Source">0</ECUSettingsItem>
   <ECUSettingsItem name="Logging Frequency">10</ECUSettingsItem>
-  <ECUSettingsItem name="Logging CH Count">41</ECUSettingsItem>
+  <ECUSettingsItem name="Logging CH Count">47</ECUSettingsItem>
   <ECUSettingsItem name="Logging CH1">69</ECUSettingsItem>
   <ECUSettingsItem name="Logging CH2">61</ECUSettingsItem>
   <ECUSettingsItem name="Logging CH3">19</ECUSettingsItem>
@@ -3799,11 +3799,11 @@
   <ECUSettingsItem name="DBW CANMOD Input 2 Class">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW CANMOD Input 3 Class">0</ECUSettingsItem>
   <ECUSettingsItem name="DBW CANMOD Input 4 Class">0</ECUSettingsItem>
-  <ECUSettingsItem name="DBW TPS Main Voltage Closed">0.81</ECUSettingsItem>
+  <ECUSettingsItem name="DBW TPS Main Voltage Closed">0.811</ECUSettingsItem>
   <ECUSettingsItem name="DBW TPS Main Voltage Open">4.667</ECUSettingsItem>
   <ECUSettingsItem name="DBW TPS Sub Voltage Closed">4.144</ECUSettingsItem>
   <ECUSettingsItem name="DBW TPS Sub Voltage Open">0.33</ECUSettingsItem>
-  <ECUSettingsItem name="DBW FPS Main Voltage Closed">0.683</ECUSettingsItem>
+  <ECUSettingsItem name="DBW FPS Main Voltage Closed">0.688</ECUSettingsItem>
   <ECUSettingsItem name="DBW FPS Main Voltage Open">3.508</ECUSettingsItem>
   <ECUSettingsItem name="DBW FPS Sub Voltage Closed">0.673</ECUSettingsItem>
   <ECUSettingsItem name="DBW FPS Sub Voltage Open">3.587</ECUSettingsItem>
@@ -3826,7 +3826,7 @@
   <ECUSettingsItem name="DBW FPS Backup Allowed Error">10</ECUSettingsItem>
   <ECUSettingsItem name="DBW FPS Backup BackupTable Backpt">0,20,40,60,80,100</ECUSettingsItem>
   <ECUSettingsItem name="DBW FPS Backup BackupTable Mainpt">100,80,60,40,20,0</ECUSettingsItem>
-  <ECUSettingsItem name="DBW Disable TPSFPS Errors">1</ECUSettingsItem>
+  <ECUSettingsItem name="DBW Disable TPSFPS Errors">0</ECUSettingsItem>
   <DynamicTable name="DBW PedalToThrottleTable Table data" AxisPageMemAddr="7636" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="8" AxisDataSource="61" StepMode="False">1000,2000,3000,4000,5000,6000,7000,8000</DynamicTableAxis>
     <DynamicTableAxis name="Y" AxisCellCount="8" AxisDataSource="206" StepMode="False">0,14.3,28.6,42.9,57.1,71.4,85.7,100</DynamicTableAxis>
@@ -3885,7 +3885,7 @@
 66.7,66.7,66.7,66.7
 100,100,100,100</DynamicTableData>
   </DynamicTable>
-  <ECUSettingsItem name="DBW FPS SetupMode">0</ECUSettingsItem>
+  <ECUSettingsItem name="DBW FPS SetupMode">1</ECUSettingsItem>
   <ECUSettingsItem name="DBW TPS SetupMode">1</ECUSettingsItem>
   <DynamicTable name="DBW FF Spring Comp Table data" AxisPageMemAddr="7872" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
@@ -7740,8 +7740,8 @@
   </DynamicTable>
   <ECUSettingsItem name="StarterCtrl Mode">1</ECUSettingsItem>
   <ECUSettingsItem name="StarterCtrl Interlock">0</ECUSettingsItem>
-  <ECUSettingsItem name="StarterCtrl MaxRPM">380</ECUSettingsItem>
-  <ECUSettingsItem name="StarterCtrl Timeout">3</ECUSettingsItem>
+  <ECUSettingsItem name="StarterCtrl MaxRPM">300</ECUSettingsItem>
+  <ECUSettingsItem name="StarterCtrl Timeout">4</ECUSettingsItem>
   <DynamicTable name="MapFilter Custom Avg Table data" AxisPageMemAddr="14528" tableSettingsBits="0">
     <DynamicTableAxis name="X" AxisCellCount="5" AxisDataSource="61" StepMode="False">0,2000,4000,6000,8000</DynamicTableAxis>
     <DynamicTableAxis name="Y" AxisCellCount="1" AxisDataSource="61" StepMode="False">0</DynamicTableAxis>
